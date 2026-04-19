@@ -1,0 +1,212 @@
+{
+  "__inputs": [],
+  "__requires": [],
+  "annotations": { "list": [] },
+  "description": "SimXStudio HPA — Replica counts, CPU/Memory utilization, Scale-out events",
+  "editable": true,
+  "graphTooltip": 1,
+  "id": null,
+  "panels": [
+    {
+      "type": "row",
+      "title": "🔄 Autoscaling Overview",
+      "gridPos": { "h": 1, "w": 24, "x": 0, "y": 0 },
+      "id": 1,
+      "collapsed": false,
+      "panels": []
+    },
+    {
+      "type": "stat",
+      "title": "Current Replicas — admin",
+      "id": 2,
+      "gridPos": { "h": 4, "w": 4, "x": 0, "y": 1 },
+      "options": { "colorMode": "background", "reduceOptions": { "calcs": ["lastNotNull"] } },
+      "targets": [
+        {
+          "expr": "kube_horizontalpodautoscaler_status_current_replicas{namespace=\"simxstudio\",horizontalpodautoscaler=\"admin-hpa\"}",
+          "legendFormat": ""
+        }
+      ]
+    },
+    {
+      "type": "stat",
+      "title": "Current Replicas — api",
+      "id": 3,
+      "gridPos": { "h": 4, "w": 4, "x": 4, "y": 1 },
+      "options": { "colorMode": "background", "reduceOptions": { "calcs": ["lastNotNull"] } },
+      "targets": [
+        {
+          "expr": "kube_horizontalpodautoscaler_status_current_replicas{namespace=\"simxstudio\",horizontalpodautoscaler=\"api-hpa\"}",
+          "legendFormat": ""
+        }
+      ]
+    },
+    {
+      "type": "stat",
+      "title": "Current Replicas — leading",
+      "id": 4,
+      "gridPos": { "h": 4, "w": 4, "x": 8, "y": 1 },
+      "options": { "colorMode": "background", "reduceOptions": { "calcs": ["lastNotNull"] } },
+      "targets": [
+        {
+          "expr": "kube_horizontalpodautoscaler_status_current_replicas{namespace=\"simxstudio\",horizontalpodautoscaler=\"leading-hpa\"}",
+          "legendFormat": ""
+        }
+      ]
+    },
+    {
+      "type": "stat",
+      "title": "Desired vs Max — admin",
+      "id": 5,
+      "gridPos": { "h": 4, "w": 4, "x": 12, "y": 1 },
+      "options": { "colorMode": "background", "reduceOptions": { "calcs": ["lastNotNull"] } },
+      "targets": [
+        {
+          "expr": "kube_horizontalpodautoscaler_status_desired_replicas{namespace=\"simxstudio\",horizontalpodautoscaler=\"admin-hpa\"}",
+          "legendFormat": "Desired"
+        }
+      ]
+    },
+    {
+      "type": "stat",
+      "title": "Scale-up Events (last 30m)",
+      "id": 6,
+      "gridPos": { "h": 4, "w": 8, "x": 16, "y": 1 },
+      "options": { "colorMode": "background", "reduceOptions": { "calcs": ["sum"] } },
+      "targets": [
+        {
+          "expr": "changes(kube_horizontalpodautoscaler_status_current_replicas{namespace=\"simxstudio\"}[30m])",
+          "legendFormat": "{{ horizontalpodautoscaler }}"
+        }
+      ]
+    },
+    {
+      "type": "row",
+      "title": "📈 Replica Timeline",
+      "gridPos": { "h": 1, "w": 24, "x": 0, "y": 5 },
+      "id": 10,
+      "collapsed": false,
+      "panels": []
+    },
+    {
+      "type": "timeseries",
+      "title": "HPA Replicas Over Time — all apps",
+      "id": 11,
+      "gridPos": { "h": 8, "w": 24, "x": 0, "y": 6 },
+      "options": { "legend": { "displayMode": "table", "placement": "bottom" } },
+      "fieldConfig": { "defaults": { "min": 0 } },
+      "targets": [
+        {
+          "expr": "kube_horizontalpodautoscaler_status_current_replicas{namespace=\"simxstudio\"}",
+          "legendFormat": "{{ horizontalpodautoscaler }} current"
+        },
+        {
+          "expr": "kube_horizontalpodautoscaler_spec_min_replicas{namespace=\"simxstudio\"}",
+          "legendFormat": "{{ horizontalpodautoscaler }} min"
+        },
+        {
+          "expr": "kube_horizontalpodautoscaler_spec_max_replicas{namespace=\"simxstudio\"}",
+          "legendFormat": "{{ horizontalpodautoscaler }} max"
+        }
+      ]
+    },
+    {
+      "type": "row",
+      "title": "🌡️ CPU & Memory Utilization",
+      "gridPos": { "h": 1, "w": 24, "x": 0, "y": 14 },
+      "id": 20,
+      "collapsed": false,
+      "panels": []
+    },
+    {
+      "type": "gauge",
+      "title": "CPU Utilization % — per Pod",
+      "id": 21,
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 15 },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "percent",
+          "min": 0,
+          "max": 100,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              { "color": "green", "value": null },
+              { "color": "yellow", "value": 50 },
+              { "color": "orange", "value": 70 },
+              { "color": "red", "value": 85 }
+            ]
+          }
+        }
+      },
+      "targets": [
+        {
+          "expr": "100 * sum(rate(container_cpu_usage_seconds_total{namespace=\"simxstudio\",container!=\"\",container!=\"POD\"}[1m])) by (pod) / on(pod) kube_pod_container_resource_requests{namespace=\"simxstudio\",resource=\"cpu\",container!=\"POD\"}",
+          "legendFormat": "{{ pod }}"
+        }
+      ]
+    },
+    {
+      "type": "gauge",
+      "title": "Memory Utilization % — per Pod",
+      "id": 22,
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 15 },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "percent",
+          "min": 0,
+          "max": 100,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              { "color": "green", "value": null },
+              { "color": "yellow", "value": 50 },
+              { "color": "orange", "value": 75 },
+              { "color": "red", "value": 90 }
+            ]
+          }
+        }
+      },
+      "targets": [
+        {
+          "expr": "100 * container_memory_working_set_bytes{namespace=\"simxstudio\",container!=\"\",container!=\"POD\"} / on(pod,container) kube_pod_container_resource_requests{namespace=\"simxstudio\",resource=\"memory\",container!=\"POD\"}",
+          "legendFormat": "{{ pod }}"
+        }
+      ]
+    },
+    {
+      "type": "row",
+      "title": "📉 Scale-down Cooldown Monitor",
+      "gridPos": { "h": 1, "w": 24, "x": 0, "y": 23 },
+      "id": 30,
+      "collapsed": false,
+      "panels": []
+    },
+    {
+      "type": "timeseries",
+      "title": "HPA Desired vs Current — all apps",
+      "id": 31,
+      "gridPos": { "h": 8, "w": 24, "x": 0, "y": 24 },
+      "fieldConfig": { "defaults": { "min": 0 } },
+      "targets": [
+        {
+          "expr": "kube_horizontalpodautoscaler_status_desired_replicas{namespace=\"simxstudio\"}",
+          "legendFormat": "{{ horizontalpodautoscaler }} desired"
+        },
+        {
+          "expr": "kube_horizontalpodautoscaler_status_current_replicas{namespace=\"simxstudio\"}",
+          "legendFormat": "{{ horizontalpodautoscaler }} current"
+        }
+      ]
+    }
+  ],
+  "refresh": "10s",
+  "schemaVersion": 39,
+  "style": "dark",
+  "tags": ["simxstudio", "hpa", "autoscaling"],
+  "time": { "from": "now-30m", "to": "now" },
+  "timepicker": {},
+  "title": "SimXStudio — HPA & Autoscaling",
+  "uid": "simxstudio-hpa-overview",
+  "version": 1
+}

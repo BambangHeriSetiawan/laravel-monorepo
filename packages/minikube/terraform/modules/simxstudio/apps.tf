@@ -21,7 +21,13 @@ resource "kubernetes_deployment" "apps" {
     template {
       metadata {
         labels = {
-          app = each.value.name
+          app     = each.value.name
+          version = "v1"
+        }
+        annotations = {
+          "prometheus.io/scrape" = "true"
+          "prometheus.io/port"   = "80"
+          "prometheus.io/path"   = "/metrics"
         }
       }
 
@@ -64,11 +70,22 @@ resource "kubernetes_deployment" "apps" {
             name  = "DB_PASSWORD"
             value = var.mysql_password
           }
+
+          resources {
+            requests = {
+              cpu    = "100m"
+              memory = "128Mi"
+            }
+            limits = {
+              cpu    = "500m"
+              memory = "512Mi"
+            }
+          }
         }
 
         container {
-          name  = "app"
-          image = each.value.image
+          name              = "app"
+          image             = each.value.image
           image_pull_policy = "Always"
 
           port {
@@ -94,6 +111,16 @@ resource "kubernetes_deployment" "apps" {
             }
             initial_delay_seconds = 10
             period_seconds        = 5
+            failure_threshold     = 3
+          }
+
+          liveness_probe {
+            http_get {
+              path = "/up"
+              port = 80
+            }
+            initial_delay_seconds = 30
+            period_seconds        = 15
             failure_threshold     = 3
           }
 
@@ -144,6 +171,17 @@ resource "kubernetes_deployment" "apps" {
           env {
             name  = "FRANKENPHP_CONFIG"
             value = ""
+          }
+
+          resources {
+            requests = {
+              cpu    = var.app_cpu_request
+              memory = var.app_memory_request
+            }
+            limits = {
+              cpu    = var.app_cpu_limit
+              memory = var.app_memory_limit
+            }
           }
         }
       }

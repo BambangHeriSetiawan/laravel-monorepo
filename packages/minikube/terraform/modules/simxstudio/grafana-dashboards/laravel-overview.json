@@ -1,0 +1,243 @@
+{
+  "__inputs": [],
+  "__requires": [],
+  "annotations": { "list": [] },
+  "description": "SimXStudio Laravel / FrankenPHP — Request Rate, Latency, Error Rate, Pod Count",
+  "editable": true,
+  "graphTooltip": 1,
+  "id": null,
+  "panels": [
+    {
+      "type": "row",
+      "title": "📊 Traffic Overview",
+      "gridPos": { "h": 1, "w": 24, "x": 0, "y": 0 },
+      "id": 1,
+      "collapsed": false,
+      "panels": []
+    },
+    {
+      "type": "stat",
+      "title": "Total RPS (all apps)",
+      "id": 2,
+      "gridPos": { "h": 4, "w": 6, "x": 0, "y": 1 },
+      "options": {
+        "colorMode": "background",
+        "graphMode": "area",
+        "justifyMode": "center",
+        "reduceOptions": { "calcs": ["lastNotNull"] },
+        "textMode": "auto"
+      },
+      "targets": [
+        {
+          "expr": "sum(rate(nginx_ingress_controller_requests{namespace=\"simxstudio\"}[1m]))",
+          "legendFormat": "RPS"
+        }
+      ]
+    },
+    {
+      "type": "stat",
+      "title": "Error Rate %",
+      "id": 3,
+      "gridPos": { "h": 4, "w": 6, "x": 6, "y": 1 },
+      "options": {
+        "colorMode": "background",
+        "graphMode": "area",
+        "justifyMode": "center",
+        "reduceOptions": { "calcs": ["lastNotNull"] }
+      },
+      "fieldConfig": {
+        "defaults": {
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              { "color": "green", "value": null },
+              { "color": "yellow", "value": 1 },
+              { "color": "red", "value": 5 }
+            ]
+          },
+          "unit": "percent"
+        }
+      },
+      "targets": [
+        {
+          "expr": "100 * sum(rate(nginx_ingress_controller_requests{namespace=\"simxstudio\",status=~\"5..\"}[1m])) / sum(rate(nginx_ingress_controller_requests{namespace=\"simxstudio\"}[1m]))",
+          "legendFormat": "5xx %"
+        }
+      ]
+    },
+    {
+      "type": "stat",
+      "title": "P99 Latency (ms)",
+      "id": 4,
+      "gridPos": { "h": 4, "w": 6, "x": 12, "y": 1 },
+      "options": {
+        "colorMode": "background",
+        "graphMode": "area",
+        "justifyMode": "center",
+        "reduceOptions": { "calcs": ["lastNotNull"] }
+      },
+      "fieldConfig": {
+        "defaults": {
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              { "color": "green", "value": null },
+              { "color": "yellow", "value": 500 },
+              { "color": "red", "value": 2000 }
+            ]
+          },
+          "unit": "ms"
+        }
+      },
+      "targets": [
+        {
+          "expr": "1000 * histogram_quantile(0.99, sum(rate(nginx_ingress_controller_request_duration_seconds_bucket{namespace=\"simxstudio\"}[1m])) by (le))",
+          "legendFormat": "P99"
+        }
+      ]
+    },
+    {
+      "type": "stat",
+      "title": "Total Running Pods",
+      "id": 5,
+      "gridPos": { "h": 4, "w": 6, "x": 18, "y": 1 },
+      "options": {
+        "colorMode": "background",
+        "graphMode": "area",
+        "justifyMode": "center",
+        "reduceOptions": { "calcs": ["lastNotNull"] }
+      },
+      "targets": [
+        {
+          "expr": "count(kube_pod_status_phase{namespace=\"simxstudio\",phase=\"Running\"})",
+          "legendFormat": "Pods Running"
+        }
+      ]
+    },
+    {
+      "type": "row",
+      "title": "🚀 Per-App Metrics",
+      "gridPos": { "h": 1, "w": 24, "x": 0, "y": 5 },
+      "id": 10,
+      "collapsed": false,
+      "panels": []
+    },
+    {
+      "type": "timeseries",
+      "title": "Requests Per Second — by App",
+      "id": 11,
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 6 },
+      "options": { "legend": { "displayMode": "table", "placement": "bottom" } },
+      "targets": [
+        {
+          "expr": "sum(rate(nginx_ingress_controller_requests{namespace=\"simxstudio\"}[1m])) by (ingress)",
+          "legendFormat": "{{ ingress }}"
+        }
+      ]
+    },
+    {
+      "type": "timeseries",
+      "title": "HTTP Latency P50 / P90 / P99 — all apps",
+      "id": 12,
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 6 },
+      "fieldConfig": { "defaults": { "unit": "ms" } },
+      "targets": [
+        {
+          "expr": "1000 * histogram_quantile(0.50, sum(rate(nginx_ingress_controller_request_duration_seconds_bucket{namespace=\"simxstudio\"}[1m])) by (le))",
+          "legendFormat": "P50"
+        },
+        {
+          "expr": "1000 * histogram_quantile(0.90, sum(rate(nginx_ingress_controller_request_duration_seconds_bucket{namespace=\"simxstudio\"}[1m])) by (le))",
+          "legendFormat": "P90"
+        },
+        {
+          "expr": "1000 * histogram_quantile(0.99, sum(rate(nginx_ingress_controller_request_duration_seconds_bucket{namespace=\"simxstudio\"}[1m])) by (le))",
+          "legendFormat": "P99"
+        }
+      ]
+    },
+    {
+      "type": "row",
+      "title": "🖥️ Resource Usage",
+      "gridPos": { "h": 1, "w": 24, "x": 0, "y": 14 },
+      "id": 20,
+      "collapsed": false,
+      "panels": []
+    },
+    {
+      "type": "timeseries",
+      "title": "CPU Usage — SimXStudio Pods",
+      "id": 21,
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 15 },
+      "fieldConfig": { "defaults": { "unit": "short" } },
+      "targets": [
+        {
+          "expr": "sum(rate(container_cpu_usage_seconds_total{namespace=\"simxstudio\",container!=\"\",container!=\"POD\"}[1m])) by (pod)",
+          "legendFormat": "{{ pod }}"
+        }
+      ]
+    },
+    {
+      "type": "timeseries",
+      "title": "Memory Usage — SimXStudio Pods",
+      "id": 22,
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 15 },
+      "fieldConfig": { "defaults": { "unit": "bytes" } },
+      "targets": [
+        {
+          "expr": "sum(container_memory_working_set_bytes{namespace=\"simxstudio\",container!=\"\",container!=\"POD\"}) by (pod)",
+          "legendFormat": "{{ pod }}"
+        }
+      ]
+    },
+    {
+      "type": "row",
+      "title": "🗄️ MySQL & Redis",
+      "gridPos": { "h": 1, "w": 24, "x": 0, "y": 23 },
+      "id": 30,
+      "collapsed": false,
+      "panels": []
+    },
+    {
+      "type": "timeseries",
+      "title": "MySQL Connections",
+      "id": 31,
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 24 },
+      "targets": [
+        {
+          "expr": "mysql_global_status_threads_connected{namespace=\"simxstudio\"}",
+          "legendFormat": "Active Connections"
+        },
+        {
+          "expr": "mysql_global_variables_max_connections{namespace=\"simxstudio\"}",
+          "legendFormat": "Max Connections"
+        }
+      ]
+    },
+    {
+      "type": "timeseries",
+      "title": "Redis Connected Clients & Ops/s",
+      "id": 32,
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 24 },
+      "targets": [
+        {
+          "expr": "redis_connected_clients{namespace=\"simxstudio\"}",
+          "legendFormat": "Connected Clients"
+        },
+        {
+          "expr": "rate(redis_commands_total{namespace=\"simxstudio\"}[1m])",
+          "legendFormat": "Ops/s"
+        }
+      ]
+    }
+  ],
+  "refresh": "10s",
+  "schemaVersion": 39,
+  "style": "dark",
+  "tags": ["simxstudio", "laravel", "frankenphp"],
+  "time": { "from": "now-30m", "to": "now" },
+  "timepicker": {},
+  "title": "SimXStudio — Laravel Overview",
+  "uid": "simxstudio-laravel-overview",
+  "version": 1
+}
