@@ -83,11 +83,27 @@ variable "grafana_admin_password" {
 
 variable "grafana_domain" {
   type    = string
-  default = "grafana.simxstudio.test"
+  default = "monitoring.simxstudio.test"
 }
 
 variable "prometheus_retention" {
   type    = string
   default = "7d"
+}
+
+# ── Heavy Query Sampler ───────────────────────────────────────────────────────
+variable "heavy_query_enabled" {
+  type    = string
+  default = "true"
+}
+
+variable "heavy_query_threshold_ms" {
+  type    = string
+  default = "500"
+}
+
+variable "heavy_query_sample_rate" {
+  type    = string
+  default = "0.25"
 }
 

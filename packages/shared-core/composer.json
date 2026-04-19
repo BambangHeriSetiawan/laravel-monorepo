@@ -4,5 +4,12 @@
     "psr-4": {
       "Simx\\Core\\": "src/"
     }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Simx\\Core\\Providers\\HeavyQueryServiceProvider"
+      ]
+    }
   }
 }

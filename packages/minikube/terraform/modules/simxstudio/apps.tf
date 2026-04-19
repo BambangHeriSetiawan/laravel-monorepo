@@ -173,6 +173,49 @@ resource "kubernetes_deployment" "apps" {
             value = ""
           }
 
+          # ── Heavy Query Sampler ──────────────────────────────────────────────
+          env {
+            name  = "HEAVY_QUERY_ENABLED"
+            value = var.heavy_query_enabled
+          }
+          env {
+            name  = "HEAVY_QUERY_THRESHOLD_MS"
+            value = var.heavy_query_threshold_ms
+          }
+          env {
+            name  = "HEAVY_QUERY_SAMPLE_RATE"
+            value = var.heavy_query_sample_rate
+          }
+          env {
+            name  = "HEAVY_QUERY_MAX_SAMPLES"
+            value = "500"
+          }
+          env {
+            name  = "HEAVY_QUERY_TTL"
+            value = "3600"
+          }
+          env {
+            name  = "HEAVY_QUERY_CACHE_STORE"
+            value = "redis"
+          }
+          env {
+            name  = "HEAVY_QUERY_CACHE_PREFIX"
+            value = "heavy_query"
+          }
+          env {
+            name  = "HEAVY_QUERY_LOG_CHANNEL"
+            value = "stderr"
+          }
+          env {
+            name  = "HEAVY_QUERY_IGNORE_PATHS"
+            value = "up,health"
+          }
+          # Debug endpoint OFF in Kubernetes (use kubectl port-forward locally)
+          env {
+            name  = "HEAVY_QUERY_DEBUG_ENDPOINT"
+            value = "false"
+          }
+
           resources {
             requests = {
               cpu    = var.app_cpu_request

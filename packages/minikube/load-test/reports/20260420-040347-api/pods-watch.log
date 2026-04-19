@@ -1,0 +1,331 @@
+NAME                                                        READY   STATUS    RESTARTS   AGE
+admin-c48696fc5-lqhgt                                       1/1     Running   0          12m
+alertmanager-kube-prometheus-stack-alertmanager-0           2/2     Running   0          10m
+api-d7546d8d4-2cksm                                         1/1     Running   0          12m
+kube-prometheus-stack-grafana-67f65f8b79-wd5c9              3/3     Running   0          11m
+kube-prometheus-stack-kube-state-metrics-65666b9d5c-46pjz   1/1     Running   0          11m
+kube-prometheus-stack-operator-7fd6d479f-kj5s5              1/1     Running   0          11m
+kube-prometheus-stack-prometheus-node-exporter-2bmqz        1/1     Running   0          11m
+leading-5d6fd4594d-kbhxb                                    1/1     Running   0          12m
+mysql-6698c4c94d-g7qmb                                      1/1     Running   0          68m
+prometheus-kube-prometheus-stack-prometheus-0               2/2     Running   0          10m
+redis-master-0                                              1/1     Running   6          18h
+alertmanager-kube-prometheus-stack-alertmanager-0           2/2     Running   0          12m
+alertmanager-kube-prometheus-stack-alertmanager-0           2/2     Running   0          13m
+kube-prometheus-stack-grafana-67f65f8b79-wd5c9              3/3     Running   0          14m
+api-d7546d8d4-k9f95                                         0/1     Pending   0          0s
+api-d7546d8d4-k9f95                                         0/1     Pending   0          0s
+api-d7546d8d4-k9f95                                         0/1     Init:0/1   0          0s
+api-d7546d8d4-k9f95                                         0/1     Init:0/1   0          3s
+api-d7546d8d4-k9f95                                         0/1     PodInitializing   0          7s
+api-d7546d8d4-k9f95                                         0/1     Running           0          10s
+api-d7546d8d4-2cksm                                         1/1     Running           0          16m
+api-d7546d8d4-k9f95                                         1/1     Running           0          23s
+admin-c48696fc5-9vthq                                       0/1     Pending           0          0s
+admin-c48696fc5-9vthq                                       0/1     Pending           0          1s
+admin-c48696fc5-9vthq                                       0/1     Init:0/1          0          1s
+admin-c48696fc5-9vthq                                       0/1     Init:0/1          0          3s
+admin-c48696fc5-9vthq                                       0/1     PodInitializing   0          7s
+admin-c48696fc5-9vthq                                       0/1     Running           0          8s
+kube-prometheus-stack-grafana-67f65f8b79-wd5c9              3/3     Running           0          16m
+api-d7546d8d4-vvt2d                                         0/1     Pending           0          0s
+api-d7546d8d4-vvt2d                                         0/1     Pending           0          0s
+api-d7546d8d4-vvt2d                                         0/1     Init:0/1          0          0s
+admin-c48696fc5-9vthq                                       1/1     Running           0          19s
+api-d7546d8d4-vvt2d                                         0/1     Init:0/1          0          4s
+api-d7546d8d4-vvt2d                                         0/1     PodInitializing   0          11s
+api-d7546d8d4-vvt2d                                         0/1     Running           0          12s
+api-d7546d8d4-vvt2d                                         1/1     Running           0          24s
+api-d7546d8d4-2cksm                                         1/1     Running           0          17m
+admin-c48696fc5-9vthq                                       1/1     Running           0          88s
+api-d7546d8d4-b699k                                         0/1     Pending           0          1s
+api-d7546d8d4-b699k                                         0/1     Pending           0          1s
+api-d7546d8d4-b699k                                         0/1     Init:0/1          0          1s
+api-d7546d8d4-b699k                                         0/1     Init:0/1          0          7s
+api-d7546d8d4-k9f95                                         1/1     Running           0          2m42s
+api-d7546d8d4-b699k                                         0/1     PodInitializing   0          14s
+api-d7546d8d4-vvt2d                                         1/1     Running           0          106s
+api-d7546d8d4-b699k                                         0/1     Running           0          17s
+admin-c48696fc5-lqhgt                                       0/1     Running           0          19m
+api-d7546d8d4-2cksm                                         0/1     Running           0          19m
+api-d7546d8d4-k9f95                                         0/1     Running           0          3m8s
+api-d7546d8d4-k9f95                                         0/1     Running           0          3m9s
+admin-c48696fc5-lqhgt                                       1/1     Running           0          19m
+api-d7546d8d4-b699k                                         1/1     Running           0          38s
+api-d7546d8d4-2cksm                                         1/1     Running           0          19m
+api-d7546d8d4-k9f95                                         1/1     Running           0          3m13s
+mysql-6698c4c94d-g7qmb                                      1/1     Running           0          75m
+redis-master-0                                              1/1     Running           6          18h
+admin-c48696fc5-9vthq                                       1/1     Running           0          2m34s
+admin-c48696fc5-fbhlt                                       0/1     Pending           0          0s
+admin-c48696fc5-fbhlt                                       0/1     Pending           0          0s
+admin-c48696fc5-fbhlt                                       0/1     Init:0/1          0          1s
+admin-c48696fc5-fbhlt                                       0/1     Init:0/1          0          5s
+admin-c48696fc5-fbhlt                                       0/1     PodInitializing   0          11s
+admin-c48696fc5-fbhlt                                       0/1     Running           0          12s
+api-d7546d8d4-k9f95                                         0/1     Running           0          4m14s
+admin-c48696fc5-9vthq                                       0/1     Running           0          3m31s
+api-d7546d8d4-b699k                                         1/1     Running           0          105s
+admin-c48696fc5-fbhlt                                       1/1     Running           0          28s
+api-d7546d8d4-vvt2d                                         0/1     Running           0          3m20s
+admin-c48696fc5-lqhgt                                       0/1     Running           0          20m
+api-d7546d8d4-2cksm                                         0/1     Running           0          20m
+admin-c48696fc5-9vthq                                       1/1     Running           0          3m37s
+redis-master-0                                              1/1     Running           6          18h
+api-d7546d8d4-k9f95                                         1/1     Running           0          4m24s
+api-d7546d8d4-vvt2d                                         1/1     Running           0          3m25s
+admin-c48696fc5-lqhgt                                       1/1     Running           0          20m
+api-d7546d8d4-2cksm                                         1/1     Running           0          20m
+mysql-6698c4c94d-g7qmb                                      1/1     Running           0          77m
+api-d7546d8d4-2cksm                                         0/1     Running           0          21m
+leading-5d6fd4594d-kbhxb                                    1/1     Running           0          21m
+api-d7546d8d4-2cksm                                         1/1     Running           0          21m
+api-d7546d8d4-qdmr4                                         0/1     Pending           0          0s
+api-d7546d8d4-qdmr4                                         0/1     Pending           0          1s
+api-d7546d8d4-qdmr4                                         0/1     Init:0/1          0          1s
+api-d7546d8d4-b699k                                         0/1     Running           0          2m52s
+api-d7546d8d4-qdmr4                                         0/1     Init:0/1          0          4s
+api-d7546d8d4-qdmr4                                         0/1     PodInitializing   0          8s
+api-d7546d8d4-qdmr4                                         0/1     Running           0          9s
+admin-c48696fc5-fbhlt                                       1/1     Running           0          103s
+admin-c48696fc5-9cdrn                                       0/1     Pending           0          0s
+admin-c48696fc5-9cdrn                                       0/1     Pending           0          0s
+admin-c48696fc5-9cdrn                                       0/1     Init:0/1          0          5s
+api-d7546d8d4-2cksm                                         0/1     Running           0          22m
+api-d7546d8d4-k9f95                                         0/1     Running           0          5m46s
+api-d7546d8d4-qdmr4                                         1/1     Running           0          25s
+api-d7546d8d4-qdmr4                                         1/1     Running           0          26s
+admin-c48696fc5-9cdrn                                       0/1     Init:0/1          0          10s
+admin-c48696fc5-9vthq                                       1/1     Running           0          5m7s
+admin-c48696fc5-fbhlt                                       0/1     Running           0          2m3s
+admin-c48696fc5-lqhgt                                       0/1     Running           0          22m
+api-d7546d8d4-vvt2d                                         0/1     Running           0          5m
+api-d7546d8d4-b699k                                         0/1     Running           1 (10s ago)   3m29s
+admin-c48696fc5-9vthq                                       0/1     Running           0             5m16s
+api-d7546d8d4-qdmr4                                         0/1     Running           0             42s
+api-d7546d8d4-2cksm                                         1/1     Running           0             22m
+admin-c48696fc5-9cdrn                                       0/1     PodInitializing   0             25s
+admin-c48696fc5-9cdrn                                       0/1     Running           0             28s
+admin-c48696fc5-lqhgt                                       1/1     Running           0             22m
+admin-c48696fc5-fbhlt                                       1/1     Running           0             2m19s
+api-d7546d8d4-b699k                                         1/1     Running           1 (26s ago)   3m45s
+admin-c48696fc5-9vthq                                       1/1     Running           0             5m32s
+api-d7546d8d4-2cksm                                         0/1     Running           0             22m
+admin-c48696fc5-lqhgt                                       0/1     Running           0             22m
+api-d7546d8d4-qdmr4                                         1/1     Running           0             62s
+admin-c48696fc5-9cdrn                                       1/1     Running           0             44s
+api-d7546d8d4-b699k                                         0/1     Running           1 (41s ago)   4m
+api-d7546d8d4-k9f95                                         0/1     Running           1 (2s ago)    6m34s
+api-d7546d8d4-b699k                                         1/1     Running           1 (51s ago)   4m10s
+leading-5d6fd4594d-kbhxb                                    1/1     Running           0             23m
+api-d7546d8d4-qdmr4                                         0/1     Running           0             83s
+api-d7546d8d4-k9f95                                         1/1     Running           1 (13s ago)   6m45s
+admin-c48696fc5-lqhgt                                       0/1     Running           1 (3s ago)    23m
+api-d7546d8d4-2cksm                                         0/1     Running           1 (5s ago)    23m
+admin-c48696fc5-lqhgt                                       0/1     Running           1 (4s ago)    23m
+api-d7546d8d4-2cksm                                         0/1     Running           1 (6s ago)    23m
+api-d7546d8d4-vvt2d                                         0/1     Running           1 (2s ago)    5m49s
+admin-c48696fc5-fbhlt                                       0/1     Running           0             3m5s
+admin-c48696fc5-9vthq                                       0/1     Running           0             6m12s
+api-d7546d8d4-b699k                                         0/1     Running           1 (68s ago)   4m27s
+api-d7546d8d4-2cksm                                         1/1     Running           1 (16s ago)   23m
+admin-c48696fc5-9cdrn                                       0/1     Running           0             80s
+admin-c48696fc5-lqhgt                                       1/1     Running           1 (16s ago)   23m
+admin-c48696fc5-fbhlt                                       1/1     Running           0             3m11s
+api-d7546d8d4-k9f95                                         0/1     Running           1 (34s ago)   7m6s
+api-d7546d8d4-vvt2d                                         1/1     Running           1 (18s ago)   6m5s
+admin-c48696fc5-9vthq                                       1/1     Running           0             6m22s
+api-d7546d8d4-qdmr4                                         1/1     Running           0             108s
+admin-c48696fc5-9cdrn                                       1/1     Running           0             90s
+api-d7546d8d4-b699k                                         0/1     Running           2 (3s ago)    4m38s
+admin-c48696fc5-9vthq                                       1/1     Running           0             6m32s
+api-d7546d8d4-2cksm                                         0/1     Running           1 (37s ago)   23m
+api-d7546d8d4-k9f95                                         1/1     Running           1 (49s ago)   7m21s
+api-d7546d8d4-b699k                                         1/1     Running           2 (16s ago)   4m51s
+admin-c48696fc5-9vthq                                       0/1     Running           0             6m37s
+api-d7546d8d4-2cksm                                         1/1     Running           1 (42s ago)   23m
+api-d7546d8d4-vvt2d                                         0/1     Running           1 (39s ago)   6m26s
+api-d7546d8d4-qdmr4                                         0/1     Running           0             2m8s
+api-d7546d8d4-vvt2d                                         1/1     Running           1 (49s ago)   6m36s
+api-d7546d8d4-qdmr4                                         1/1     Running           0             2m18s
+api-d7546d8d4-b699k                                         0/1     Running           2 (36s ago)   5m11s
+api-d7546d8d4-b699k                                         0/1     Running           2 (37s ago)   5m12s
+api-d7546d8d4-2cksm                                         0/1     Running           1 (63s ago)   24m
+api-d7546d8d4-k9f95                                         0/1     Running           1 (75s ago)   7m47s
+api-d7546d8d4-k9f95                                         1/1     Running           1 (76s ago)   7m48s
+admin-c48696fc5-9vthq                                       0/1     Running           1 (3s ago)    7m6s
+admin-c48696fc5-fbhlt                                       1/1     Running           0             4m2s
+api-d7546d8d4-b699k                                         1/1     Running           2 (47s ago)   5m22s
+leading-5d6fd4594d-kbhxb                                    1/1     Running           0             24m
+admin-c48696fc5-9cdrn                                       0/1     Running           0             2m16s
+api-d7546d8d4-2cksm                                         1/1     Running           1 (73s ago)   24m
+admin-c48696fc5-9cdrn                                       1/1     Running           0             2m17s
+api-d7546d8d4-vvt2d                                         0/1     Running           1 (70s ago)   6m57s
+admin-c48696fc5-fbhlt                                       0/1     Running           0             4m10s
+api-d7546d8d4-qdmr4                                         0/1     Running           0             2m40s
+admin-c48696fc5-9vthq                                       1/1     Running           1 (13s ago)   7m16s
+api-d7546d8d4-vvt2d                                         1/1     Running           1 (75s ago)   7m2s
+api-d7546d8d4-qdmr4                                         1/1     Running           0             2m45s
+api-d7546d8d4-k9f95                                         0/1     Running           1 (96s ago)   8m8s
+api-d7546d8d4-k9f95                                         1/1     Running           1 (101s ago)   8m13s
+api-d7546d8d4-b699k                                         0/1     Running           2 (67s ago)    5m42s
+admin-c48696fc5-lqhgt                                       0/1     Running           1 (91s ago)    24m
+admin-c48696fc5-lqhgt                                       1/1     Running           1 (92s ago)    24m
+api-d7546d8d4-b699k                                         0/1     Running           2 (73s ago)    5m48s
+admin-c48696fc5-fbhlt                                       0/1     Running           1 (2s ago)     4m34s
+api-d7546d8d4-k9f95                                         0/1     Running           1 (117s ago)   8m29s
+admin-c48696fc5-lqhgt                                       0/1     Running           1 (107s ago)   24m
+api-d7546d8d4-2cksm                                         0/1     Running           1 (111s ago)   24m
+admin-c48696fc5-9vthq                                       0/1     Running           1 (45s ago)    7m48s
+api-d7546d8d4-vvt2d                                         0/1     Running           1 (107s ago)   7m34s
+api-d7546d8d4-k9f95                                         1/1     Running           1 (2m3s ago)   8m35s
+admin-c48696fc5-fbhlt                                       1/1     Running           1 (14s ago)    4m46s
+api-d7546d8d4-qdmr4                                         0/1     Running           0              3m15s
+admin-c48696fc5-9vthq                                       1/1     Running           1 (50s ago)    7m53s
+api-d7546d8d4-vvt2d                                         1/1     Running           1 (111s ago)   7m38s
+admin-c48696fc5-lqhgt                                       1/1     Running           1 (117s ago)   25m
+api-d7546d8d4-qdmr4                                         1/1     Running           0              3m21s
+api-d7546d8d4-2cksm                                         1/1     Running           1 (119s ago)   25m
+api-d7546d8d4-b699k                                         0/1     Running           3 (1s ago)     6m19s
+api-d7546d8d4-k9f95                                         0/1     Running           1 (2m25s ago)   8m57s
+api-d7546d8d4-k9f95                                         0/1     Running           1 (2m25s ago)   8m57s
+api-d7546d8d4-k9f95                                         0/1     Running           1 (2m30s ago)   9m2s
+api-d7546d8d4-b699k                                         1/1     Running           3 (13s ago)     6m31s
+api-d7546d8d4-b699k                                         1/1     Running           3 (13s ago)     6m31s
+api-d7546d8d4-2cksm                                         0/1     Running           1 (2m21s ago)   25m
+admin-c48696fc5-fbhlt                                       0/1     Running           1 (45s ago)     5m17s
+admin-c48696fc5-9cdrn                                       0/1     Running           0               3m27s
+admin-c48696fc5-lqhgt                                       0/1     Running           1 (2m24s ago)   25m
+admin-c48696fc5-9vthq                                       0/1     Running           1 (81s ago)     8m24s
+api-d7546d8d4-vvt2d                                         0/1     Running           1 (2m22s ago)   8m9s
+admin-c48696fc5-fbhlt                                       1/1     Running           1 (50s ago)     5m22s
+admin-c48696fc5-9cdrn                                       1/1     Running           0               3m33s
+admin-c48696fc5-lqhgt                                       1/1     Running           1 (2m33s ago)   25m
+api-d7546d8d4-qdmr4                                         0/1     Running           0               3m57s
+api-d7546d8d4-2cksm                                         1/1     Running           1 (2m35s ago)   25m
+api-d7546d8d4-b699k                                         0/1     Running           3 (28s ago)     6m46s
+admin-c48696fc5-9vthq                                       1/1     Running           1 (91s ago)     8m34s
+api-d7546d8d4-vvt2d                                         1/1     Running           1 (2m32s ago)   8m19s
+kube-prometheus-stack-grafana-67f65f8b79-wd5c9              3/3     Running           0               24m
+kube-prometheus-stack-operator-7fd6d479f-kj5s5              1/1     Running           0               24m
+api-d7546d8d4-2cksm                                         1/1     Running           1 (2m46s ago)   25m
+admin-c48696fc5-fbhlt                                       0/1     Running           1 (68s ago)     5m40s
+admin-c48696fc5-lqhgt                                       1/1     Running           1 (2m47s ago)   25m
+admin-c48696fc5-lqhgt                                       0/1     Running           1 (2m49s ago)   25m
+api-d7546d8d4-2cksm                                         0/1     Running           1 (2m50s ago)   25m
+api-d7546d8d4-k9f95                                         0/1     Running           2 (2s ago)      9m34s
+api-d7546d8d4-vvt2d                                         0/1     Running           1 (2m48s ago)   8m35s
+admin-c48696fc5-fbhlt                                       0/1     Running           1 (75s ago)     5m47s
+api-d7546d8d4-qdmr4                                         1/1     Running           0               4m17s
+admin-c48696fc5-9cdrn                                       0/1     Running           0               3m58s
+api-d7546d8d4-b699k                                         1/1     Running           3 (49s ago)     7m7s
+admin-c48696fc5-9vthq                                       0/1     Running           1 (112s ago)    8m55s
+api-d7546d8d4-k9f95                                         1/1     Running           2 (15s ago)     9m47s
+admin-c48696fc5-9cdrn                                       1/1     Running           0               4m8s
+admin-c48696fc5-9vthq                                       1/1     Running           1 (2m2s ago)    9m5s
+alertmanager-kube-prometheus-stack-alertmanager-0           2/2     Running           0               24m
+api-d7546d8d4-qdmr4                                         0/1     Running           0               4m33s
+api-d7546d8d4-b699k                                         0/1     Running           3 (65s ago)     7m23s
+admin-c48696fc5-9cdrn                                       1/1     Running           0               4m19s
+api-d7546d8d4-vvt2d                                         1/1     Running           1 (3m14s ago)   9m1s
+api-d7546d8d4-2cksm                                         0/1     Running           2 (4s ago)      26m
+api-d7546d8d4-k9f95                                         0/1     Running           2 (31s ago)     10m
+admin-c48696fc5-9cdrn                                       0/1     Running           0               4m24s
+admin-c48696fc5-lqhgt                                       0/1     Running           2               26m
+admin-c48696fc5-9vthq                                       1/1     Running           1 (2m16s ago)   9m19s
+api-d7546d8d4-b699k                                         0/1     Running           3 (75s ago)     7m33s
+admin-c48696fc5-9vthq                                       0/1     Running           1 (2m22s ago)   9m25s
+admin-c48696fc5-fbhlt                                       0/1     Running           2 (7s ago)      6m25s
+api-d7546d8d4-qdmr4                                         1/1     Running           0               5m3s
+api-d7546d8d4-vvt2d                                         0/1     Running           1 (3m38s ago)   9m25s
+admin-c48696fc5-9cdrn                                       0/1     Running           1 (3s ago)      4m52s
+api-d7546d8d4-2cksm                                         1/1     Running           2 (35s ago)     26m
+admin-c48696fc5-lqhgt                                       1/1     Running           2               26m
+admin-c48696fc5-9vthq                                       0/1     Running           2 (5s ago)      9m53s
+api-d7546d8d4-b699k                                         0/1     Running           4 (4s ago)      8m7s
+kube-prometheus-stack-grafana-67f65f8b79-wd5c9              3/3     Running           0               25m
+admin-c48696fc5-fbhlt                                       1/1     Running           2 (33s ago)     6m51s
+api-d7546d8d4-qdmr4                                         0/1     Running           0               5m24s
+admin-c48696fc5-9cdrn                                       1/1     Running           1 (20s ago)     5m9s
+api-d7546d8d4-2cksm                                         0/1     Running           2 (51s ago)     27m
+admin-c48696fc5-9vthq                                       1/1     Running           2 (16s ago)     10m
+api-d7546d8d4-b699k                                         1/1     Running           4 (16s ago)     8m19s
+admin-c48696fc5-lqhgt                                       0/1     Running           2               27m
+admin-c48696fc5-lqhgt                                       1/1     Running           2               27m
+mysql-6698c4c94d-g7qmb                                      1/1     Running           0               83m
+api-d7546d8d4-qdmr4                                         1/1     Running           0               5m39s
+api-d7546d8d4-qdmr4                                         1/1     Running           0               5m39s
+api-d7546d8d4-2cksm                                         1/1     Running           2 (61s ago)     27m
+api-d7546d8d4-b699k                                         0/1     Running           4 (31s ago)     8m34s
+admin-c48696fc5-bjsjk                                       0/1     Pending           0               0s
+admin-c48696fc5-bjsjk                                       0/1     Pending           0               0s
+admin-c48696fc5-bjsjk                                       0/1     Init:0/1          0               2s
+api-d7546d8d4-2cksm                                         1/1     Running           2 (75s ago)     27m
+admin-c48696fc5-bjsjk                                       0/1     Init:0/1          0               5s
+api-d7546d8d4-vvt2d                                         0/1     Running           2 (2s ago)      10m
+api-d7546d8d4-k9f95                                         0/1     Running           3 (3s ago)      11m
+alertmanager-kube-prometheus-stack-alertmanager-0           2/2     Running           0               25m
+admin-c48696fc5-lqhgt                                       0/1     Running           2               27m
+admin-c48696fc5-bjsjk                                       0/1     PodInitializing   0               13s
+api-d7546d8d4-2cksm                                         0/1     Running           2 (86s ago)     27m
+admin-c48696fc5-9vthq                                       0/1     Running           2 (51s ago)     10m
+admin-c48696fc5-bjsjk                                       0/1     Running           0               15s
+api-d7546d8d4-qdmr4                                         0/1     Running           0               6m5s
+admin-c48696fc5-bjsjk                                       0/1     Running           0               16s
+admin-c48696fc5-9vthq                                       1/1     Running           2 (56s ago)     10m
+api-d7546d8d4-vvt2d                                         1/1     Running           2 (13s ago)     10m
+api-d7546d8d4-b699k                                         1/1     Running           4 (56s ago)     8m59s
+admin-c48696fc5-fbhlt                                       0/1     Running           2 (83s ago)     7m41s
+admin-c48696fc5-lqhgt                                       1/1     Running           2               27m
+api-d7546d8d4-k9f95                                         1/1     Running           3 (15s ago)     11m
+admin-c48696fc5-bjsjk                                       1/1     Running           0               26s
+admin-c48696fc5-9cdrn                                       0/1     Running           1 (71s ago)     6m
+leading-5d6fd4594d-kbhxb                                    1/1     Running           0               28m
+admin-c48696fc5-lqhgt                                       1/1     Running           2               28m
+api-d7546d8d4-2cksm                                         0/1     Running           3 (3s ago)      28m
+api-d7546d8d4-vvt2d                                         0/1     Running           2 (29s ago)     10m
+admin-c48696fc5-fbhlt                                       1/1     Running           2 (101s ago)    7m59s
+api-d7546d8d4-b699k                                         0/1     Running           4 (75s ago)     9m18s
+admin-c48696fc5-9vthq                                       0/1     Running           2 (78s ago)     11m
+admin-c48696fc5-lqhgt                                       0/1     Running           2               28m
+admin-c48696fc5-9vthq                                       0/1     Running           2 (79s ago)     11m
+api-d7546d8d4-k9f95                                         0/1     Running           3 (36s ago)     11m
+admin-c48696fc5-bjsjk                                       0/1     Running           0               43s
+admin-c48696fc5-fbhlt                                       0/1     Running           2 (2m ago)      8m18s
+kube-prometheus-stack-operator-7fd6d479f-kj5s5              1/1     Running           0               27m
+admin-c48696fc5-lqhgt                                       0/1     Running           3 (7s ago)      28m
+admin-c48696fc5-9cdrn                                       0/1     Running           2 (7s ago)      6m40s
+api-d7546d8d4-b699k                                         0/1     Running           5 (3s ago)      9m51s
+mysql-6698c4c94d-g7qmb                                      1/1     Running           0               84m
+api-d7546d8d4-k9f95                                         0/1     Running           3 (78s ago)     12m
+api-d7546d8d4-vvt2d                                         0/1     Running           2 (83s ago)     11m
+api-d7546d8d4-qdmr4                                         0/1     Running           1 (17s ago)     7m21s
+api-d7546d8d4-2cksm                                         1/1     Running           3 (59s ago)     29m
+admin-c48696fc5-fbhlt                                       0/1     Running           2 (2m41s ago)   8m59s
+admin-c48696fc5-9vthq                                       0/1     Running           3 (18s ago)     12m
+kube-prometheus-stack-operator-7fd6d479f-kj5s5              0/1     Running           0               28m
+kube-prometheus-stack-grafana-67f65f8b79-wd5c9              2/3     Running           0               28m
+kube-prometheus-stack-grafana-67f65f8b79-wd5c9              3/3     Running           0               28m
+kube-prometheus-stack-operator-7fd6d479f-kj5s5              1/1     Running           0               28m
+admin-c48696fc5-lqhgt                                       1/1     Running           3 (50s ago)     29m
+redis-master-0                                              1/1     Running           6               18h
+api-d7546d8d4-b699k                                         1/1     Running           5 (49s ago)     10m
+admin-c48696fc5-bjsjk                                       0/1     Running           1 (10s ago)     119s
+api-d7546d8d4-2cksm                                         0/1     Running           3 (88s ago)     29m
+leading-5d6fd4594d-kbhxb                                    1/1     Running           0               29m
+api-d7546d8d4-vvt2d                                         0/1     Running           3 (7s ago)      12m
+prometheus-kube-prometheus-stack-prometheus-0               1/2     Running           0               27m
+admin-c48696fc5-9cdrn                                       1/1     Running           2 (59s ago)     7m32s
+api-d7546d8d4-k9f95                                         0/1     Running           4 (9s ago)      13m
+admin-c48696fc5-fbhlt                                       0/1     Running           3 (5s ago)      9m23s
+admin-c48696fc5-9vthq                                       1/1     Running           3 (41s ago)     12m
+api-d7546d8d4-qdmr4                                         1/1     Running           1 (48s ago)     7m52s
+prometheus-kube-prometheus-stack-prometheus-0               1/2     Running           0               27m
+prometheus-kube-prometheus-stack-prometheus-0               2/2     Running           0               27m
+admin-c48696fc5-bjsjk                                       1/1     Running           1 (20s ago)     2m9s
+admin-c48696fc5-bjsjk                                       1/1     Running           1 (20s ago)     2m9s
+api-d7546d8d4-vvt2d                                         1/1     Running           3 (19s ago)     12m
+admin-c48696fc5-lqhgt                                       0/1     Running           3 (71s ago)     29m
+api-d7546d8d4-k9f95                                         1/1     Running           4 (21s ago)     13m
+admin-c48696fc5-fbhlt                                       1/1     Running           3 (17s ago)     9m35s
+prometheus-kube-prometheus-stack-prometheus-0               1/2     Running           1 (5s ago)      27m

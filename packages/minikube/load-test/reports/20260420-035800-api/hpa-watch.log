@@ -1,0 +1,17 @@
+NAME          REFERENCE            TARGETS                         MINPODS   MAXPODS   REPLICAS   AGE
+admin-hpa     Deployment/admin     cpu: 10%/70%, memory: 42%/75%   1         5         1          6m9s
+api-hpa       Deployment/api       cpu: 12%/70%, memory: 41%/75%   1         5         1          6m9s
+leading-hpa   Deployment/leading   cpu: 10%/70%, memory: 41%/75%   1         5         1          6m9s
+leading-hpa   Deployment/leading   cpu: 8%/70%, memory: 41%/75%    1         5         1          6m18s
+admin-hpa     Deployment/admin     cpu: 8%/70%, memory: 42%/75%    1         5         1          6m18s
+api-hpa       Deployment/api       cpu: 10%/70%, memory: 41%/75%   1         5         1          6m33s
+leading-hpa   Deployment/leading   cpu: 9%/70%, memory: 41%/75%    1         5         1          6m33s
+admin-hpa     Deployment/admin     cpu: 10%/70%, memory: 42%/75%   1         5         1          6m33s
+leading-hpa   Deployment/leading   cpu: 12%/70%, memory: 41%/75%   1         5         1          6m48s
+admin-hpa     Deployment/admin     cpu: 12%/70%, memory: 42%/75%   1         5         1          6m49s
+api-hpa       Deployment/api       cpu: 15%/70%, memory: 41%/75%   1         5         1          7m4s
+leading-hpa   Deployment/leading   cpu: 8%/70%, memory: 41%/75%    1         5         1          7m4s
+admin-hpa     Deployment/admin     cpu: 8%/70%, memory: 42%/75%    1         5         1          7m4s
+api-hpa       Deployment/api       cpu: 11%/70%, memory: 41%/75%   1         5         1          7m19s
+leading-hpa   Deployment/leading   cpu: 16%/70%, memory: 41%/75%   1         5         1          7m34s
+admin-hpa     Deployment/admin     cpu: 10%/70%, memory: 42%/75%   1         5         1          7m34s

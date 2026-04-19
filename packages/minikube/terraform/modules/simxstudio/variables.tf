@@ -118,3 +118,25 @@ variable "prometheus_retention" {
   description = "Prometheus data retention period."
 }
 
+# ──────────────────────────────────────────────
+# Heavy Query Sampler
+# ──────────────────────────────────────────────
+variable "heavy_query_enabled" {
+  type        = string
+  default     = "true"
+  description = "Enable/disable the heavy query sampler in deployed pods."
+}
+
+variable "heavy_query_threshold_ms" {
+  type        = string
+  default     = "500"
+  description = "Slow query threshold in milliseconds for Kubernetes pods."
+}
+
+variable "heavy_query_sample_rate" {
+  type        = string
+  default     = "0.25"
+  description = "Fraction of heavy queries to capture (0.0–1.0). 0.25 = 25% under load."
+}
+
+

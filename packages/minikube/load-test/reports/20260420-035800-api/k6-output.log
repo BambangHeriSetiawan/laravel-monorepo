@@ -1,0 +1,552 @@
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+
+     execution: local
+        script: autoscale-test.js
+        output: json (./reports/20260420-035800-api/results.json)
+
+     scenarios: (100.00%) 4 scenarios, 100 max VUs, 1h0m30s max duration (incl. graceful stop):
+              * smoke_test: 1 looping VUs for 1m0s (exec: smokeTest, gracefulStop: 30s)
+              * ramp_up: Up to 100 looping VUs for 16m0s over 6 stages (gracefulRampDown: 30s, exec: loadTest, startTime: 2m0s, gracefulStop: 30s)
+              * spike_test: Up to 100 looping VUs for 6m50s over 5 stages (gracefulRampDown: 30s, exec: loadTest, startTime: 20m0s, gracefulStop: 30s)
+              * soak_test: 30 looping VUs for 30m0s (exec: loadTest, startTime: 30m0s, gracefulStop: 30s)
+
+
+running (0h00m00.9s), 001/100 VUs, 0 complete and 0 interrupted iterations
+smoke_test   [   2% ] 1 VUs    0m00.9s/1m0s
+ramp_up    • [   0% ] waiting  1m59.1s
+spike_test • [   0% ] waiting  19m59.1s
+soak_test  • [   0% ] waiting  29m59.1s
+
+running (0h00m01.9s), 001/100 VUs, 1 complete and 0 interrupted iterations
+smoke_test   [   3% ] 1 VUs    0m01.9s/1m0s
+ramp_up    • [   0% ] waiting  1m58.1s
+spike_test • [   0% ] waiting  19m58.1s
+soak_test  • [   0% ] waiting  29m58.1s
+
+running (0h00m02.9s), 001/100 VUs, 2 complete and 0 interrupted iterations
+smoke_test   [   5% ] 1 VUs    0m02.9s/1m0s
+ramp_up    • [   0% ] waiting  1m57.1s
+spike_test • [   0% ] waiting  19m57.1s
+soak_test  • [   0% ] waiting  29m57.1s
+
+running (0h00m03.9s), 001/100 VUs, 3 complete and 0 interrupted iterations
+smoke_test   [   7% ] 1 VUs    0m03.9s/1m0s
+ramp_up    • [   0% ] waiting  1m56.1s
+spike_test • [   0% ] waiting  19m56.1s
+soak_test  • [   0% ] waiting  29m56.1s
+
+running (0h00m04.9s), 001/100 VUs, 4 complete and 0 interrupted iterations
+smoke_test   [   8% ] 1 VUs    0m04.9s/1m0s
+ramp_up    • [   0% ] waiting  1m55.1s
+spike_test • [   0% ] waiting  19m55.1s
+soak_test  • [   0% ] waiting  29m55.1s
+
+running (0h00m05.9s), 001/100 VUs, 5 complete and 0 interrupted iterations
+smoke_test   [  10% ] 1 VUs    0m05.9s/1m0s
+ramp_up    • [   0% ] waiting  1m54.1s
+spike_test • [   0% ] waiting  19m54.1s
+soak_test  • [   0% ] waiting  29m54.1s
+
+running (0h00m06.9s), 001/100 VUs, 6 complete and 0 interrupted iterations
+smoke_test   [  12% ] 1 VUs    0m06.9s/1m0s
+ramp_up    • [   0% ] waiting  1m53.1s
+spike_test • [   0% ] waiting  19m53.1s
+soak_test  • [   0% ] waiting  29m53.1s
+
+running (0h00m07.9s), 001/100 VUs, 7 complete and 0 interrupted iterations
+smoke_test   [  13% ] 1 VUs    0m07.9s/1m0s
+ramp_up    • [   0% ] waiting  1m52.1s
+spike_test • [   0% ] waiting  19m52.1s
+soak_test  • [   0% ] waiting  29m52.1s
+
+running (0h00m08.9s), 001/100 VUs, 8 complete and 0 interrupted iterations
+smoke_test   [  15% ] 1 VUs    0m08.9s/1m0s
+ramp_up    • [   0% ] waiting  1m51.1s
+spike_test • [   0% ] waiting  19m51.1s
+soak_test  • [   0% ] waiting  29m51.1s
+
+running (0h00m09.9s), 001/100 VUs, 9 complete and 0 interrupted iterations
+smoke_test   [  17% ] 1 VUs    0m09.9s/1m0s
+ramp_up    • [   0% ] waiting  1m50.1s
+spike_test • [   0% ] waiting  19m50.1s
+soak_test  • [   0% ] waiting  29m50.1s
+
+running (0h00m10.9s), 001/100 VUs, 10 complete and 0 interrupted iterations
+smoke_test   [  18% ] 1 VUs    0m10.9s/1m0s
+ramp_up    • [   0% ] waiting  1m49.1s
+spike_test • [   0% ] waiting  19m49.1s
+soak_test  • [   0% ] waiting  29m49.1s
+
+running (0h00m11.9s), 001/100 VUs, 11 complete and 0 interrupted iterations
+smoke_test   [  20% ] 1 VUs    0m11.9s/1m0s
+ramp_up    • [   0% ] waiting  1m48.1s
+spike_test • [   0% ] waiting  19m48.1s
+soak_test  • [   0% ] waiting  29m48.1s
+
+running (0h00m12.9s), 001/100 VUs, 12 complete and 0 interrupted iterations
+smoke_test   [  22% ] 1 VUs    0m12.9s/1m0s
+ramp_up    • [   0% ] waiting  1m47.1s
+spike_test • [   0% ] waiting  19m47.1s
+soak_test  • [   0% ] waiting  29m47.1s
+
+running (0h00m13.9s), 001/100 VUs, 13 complete and 0 interrupted iterations
+smoke_test   [  23% ] 1 VUs    0m13.9s/1m0s
+ramp_up    • [   0% ] waiting  1m46.1s
+spike_test • [   0% ] waiting  19m46.1s
+soak_test  • [   0% ] waiting  29m46.1s
+
+running (0h00m15.0s), 001/100 VUs, 14 complete and 0 interrupted iterations
+smoke_test   [  25% ] 1 VUs    0m15.0s/1m0s
+ramp_up    • [   0% ] waiting  1m45.0s
+spike_test • [   0% ] waiting  19m45.0s
+soak_test  • [   0% ] waiting  29m45.0s
+
+running (0h00m15.9s), 001/100 VUs, 15 complete and 0 interrupted iterations
+smoke_test   [  27% ] 1 VUs    0m15.9s/1m0s
+ramp_up    • [   0% ] waiting  1m44.1s
+spike_test • [   0% ] waiting  19m44.1s
+soak_test  • [   0% ] waiting  29m44.1s
+
+running (0h00m16.9s), 001/100 VUs, 16 complete and 0 interrupted iterations
+smoke_test   [  28% ] 1 VUs    0m16.9s/1m0s
+ramp_up    • [   0% ] waiting  1m43.1s
+spike_test • [   0% ] waiting  19m43.1s
+soak_test  • [   0% ] waiting  29m43.1s
+
+running (0h00m17.9s), 001/100 VUs, 17 complete and 0 interrupted iterations
+smoke_test   [  30% ] 1 VUs    0m17.9s/1m0s
+ramp_up    • [   0% ] waiting  1m42.1s
+spike_test • [   0% ] waiting  19m42.1s
+soak_test  • [   0% ] waiting  29m42.1s
+
+running (0h00m18.9s), 001/100 VUs, 18 complete and 0 interrupted iterations
+smoke_test   [  32% ] 1 VUs    0m18.9s/1m0s
+ramp_up    • [   0% ] waiting  1m41.1s
+spike_test • [   0% ] waiting  19m41.1s
+soak_test  • [   0% ] waiting  29m41.1s
+
+running (0h00m19.9s), 001/100 VUs, 19 complete and 0 interrupted iterations
+smoke_test   [  33% ] 1 VUs    0m19.9s/1m0s
+ramp_up    • [   0% ] waiting  1m40.1s
+spike_test • [   0% ] waiting  19m40.1s
+soak_test  • [   0% ] waiting  29m40.1s
+
+running (0h00m20.9s), 001/100 VUs, 20 complete and 0 interrupted iterations
+smoke_test   [  35% ] 1 VUs    0m20.9s/1m0s
+ramp_up    • [   0% ] waiting  1m39.1s
+spike_test • [   0% ] waiting  19m39.1s
+soak_test  • [   0% ] waiting  29m39.1s
+
+running (0h00m21.9s), 001/100 VUs, 21 complete and 0 interrupted iterations
+smoke_test   [  37% ] 1 VUs    0m21.9s/1m0s
+ramp_up    • [   0% ] waiting  1m38.1s
+spike_test • [   0% ] waiting  19m38.1s
+soak_test  • [   0% ] waiting  29m38.1s
+
+running (0h00m22.9s), 001/100 VUs, 22 complete and 0 interrupted iterations
+smoke_test   [  38% ] 1 VUs    0m22.9s/1m0s
+ramp_up    • [   0% ] waiting  1m37.1s
+spike_test • [   0% ] waiting  19m37.1s
+soak_test  • [   0% ] waiting  29m37.1s
+
+running (0h00m24.0s), 001/100 VUs, 23 complete and 0 interrupted iterations
+smoke_test   [  40% ] 1 VUs    0m24.0s/1m0s
+ramp_up    • [   0% ] waiting  1m36.1s
+spike_test • [   0% ] waiting  19m36.1s
+soak_test  • [   0% ] waiting  29m36.0s
+
+running (0h00m25.0s), 001/100 VUs, 24 complete and 0 interrupted iterations
+smoke_test   [  42% ] 1 VUs    0m25.0s/1m0s
+ramp_up    • [   0% ] waiting  1m35.0s
+spike_test • [   0% ] waiting  19m35.0s
+soak_test  • [   0% ] waiting  29m35.0s
+
+running (0h00m25.9s), 001/100 VUs, 25 complete and 0 interrupted iterations
+smoke_test   [  43% ] 1 VUs    0m25.9s/1m0s
+ramp_up    • [   0% ] waiting  1m34.1s
+spike_test • [   0% ] waiting  19m34.1s
+soak_test  • [   0% ] waiting  29m34.1s
+
+running (0h00m26.9s), 001/100 VUs, 26 complete and 0 interrupted iterations
+smoke_test   [  45% ] 1 VUs    0m26.9s/1m0s
+ramp_up    • [   0% ] waiting  1m33.1s
+spike_test • [   0% ] waiting  19m33.1s
+soak_test  • [   0% ] waiting  29m33.1s
+
+running (0h00m27.9s), 001/100 VUs, 27 complete and 0 interrupted iterations
+smoke_test   [  47% ] 1 VUs    0m27.9s/1m0s
+ramp_up    • [   0% ] waiting  1m32.1s
+spike_test • [   0% ] waiting  19m32.1s
+soak_test  • [   0% ] waiting  29m32.1s
+
+running (0h00m28.9s), 001/100 VUs, 28 complete and 0 interrupted iterations
+smoke_test   [  48% ] 1 VUs    0m28.9s/1m0s
+ramp_up    • [   0% ] waiting  1m31.1s
+spike_test • [   0% ] waiting  19m31.1s
+soak_test  • [   0% ] waiting  29m31.1s
+
+running (0h00m29.9s), 001/100 VUs, 29 complete and 0 interrupted iterations
+smoke_test   [  50% ] 1 VUs    0m29.9s/1m0s
+ramp_up    • [   0% ] waiting  1m30.1s
+spike_test • [   0% ] waiting  19m30.1s
+soak_test  • [   0% ] waiting  29m30.1s
+
+running (0h00m30.9s), 001/100 VUs, 30 complete and 0 interrupted iterations
+smoke_test   [  52% ] 1 VUs    0m30.9s/1m0s
+ramp_up    • [   0% ] waiting  1m29.1s
+spike_test • [   0% ] waiting  19m29.1s
+soak_test  • [   0% ] waiting  29m29.1s
+
+running (0h00m31.9s), 001/100 VUs, 31 complete and 0 interrupted iterations
+smoke_test   [  53% ] 1 VUs    0m31.9s/1m0s
+ramp_up    • [   0% ] waiting  1m28.1s
+spike_test • [   0% ] waiting  19m28.1s
+soak_test  • [   0% ] waiting  29m28.1s
+
+running (0h00m32.9s), 001/100 VUs, 32 complete and 0 interrupted iterations
+smoke_test   [  55% ] 1 VUs    0m32.9s/1m0s
+ramp_up    • [   0% ] waiting  1m27.1s
+spike_test • [   0% ] waiting  19m27.1s
+soak_test  • [   0% ] waiting  29m27.1s
+
+running (0h00m33.9s), 001/100 VUs, 33 complete and 0 interrupted iterations
+smoke_test   [  57% ] 1 VUs    0m33.9s/1m0s
+ramp_up    • [   0% ] waiting  1m26.1s
+spike_test • [   0% ] waiting  19m26.1s
+soak_test  • [   0% ] waiting  29m26.1s
+
+running (0h00m34.9s), 001/100 VUs, 34 complete and 0 interrupted iterations
+smoke_test   [  58% ] 1 VUs    0m34.9s/1m0s
+ramp_up    • [   0% ] waiting  1m25.1s
+spike_test • [   0% ] waiting  19m25.1s
+soak_test  • [   0% ] waiting  29m25.1s
+
+running (0h00m35.9s), 001/100 VUs, 35 complete and 0 interrupted iterations
+smoke_test   [  60% ] 1 VUs    0m35.9s/1m0s
+ramp_up    • [   0% ] waiting  1m24.1s
+spike_test • [   0% ] waiting  19m24.1s
+soak_test  • [   0% ] waiting  29m24.1s
+
+running (0h00m36.9s), 001/100 VUs, 36 complete and 0 interrupted iterations
+smoke_test   [  62% ] 1 VUs    0m36.9s/1m0s
+ramp_up    • [   0% ] waiting  1m23.1s
+spike_test • [   0% ] waiting  19m23.1s
+soak_test  • [   0% ] waiting  29m23.1s
+
+running (0h00m37.9s), 001/100 VUs, 37 complete and 0 interrupted iterations
+smoke_test   [  63% ] 1 VUs    0m37.9s/1m0s
+ramp_up    • [   0% ] waiting  1m22.1s
+spike_test • [   0% ] waiting  19m22.1s
+soak_test  • [   0% ] waiting  29m22.1s
+
+running (0h00m38.9s), 001/100 VUs, 38 complete and 0 interrupted iterations
+smoke_test   [  65% ] 1 VUs    0m38.9s/1m0s
+ramp_up    • [   0% ] waiting  1m21.1s
+spike_test • [   0% ] waiting  19m21.1s
+soak_test  • [   0% ] waiting  29m21.1s
+
+running (0h00m39.9s), 001/100 VUs, 38 complete and 0 interrupted iterations
+smoke_test   [  67% ] 1 VUs    0m39.9s/1m0s
+ramp_up    • [   0% ] waiting  1m20.1s
+spike_test • [   0% ] waiting  19m20.1s
+soak_test  • [   0% ] waiting  29m20.1s
+
+running (0h00m40.9s), 001/100 VUs, 39 complete and 0 interrupted iterations
+smoke_test   [  68% ] 1 VUs    0m40.9s/1m0s
+ramp_up    • [   0% ] waiting  1m19.1s
+spike_test • [   0% ] waiting  19m19.1s
+soak_test  • [   0% ] waiting  29m19.1s
+
+running (0h00m41.9s), 001/100 VUs, 40 complete and 0 interrupted iterations
+smoke_test   [  70% ] 1 VUs    0m41.9s/1m0s
+ramp_up    • [   0% ] waiting  1m18.1s
+spike_test • [   0% ] waiting  19m18.1s
+soak_test  • [   0% ] waiting  29m18.1s
+
+running (0h00m42.9s), 001/100 VUs, 41 complete and 0 interrupted iterations
+smoke_test   [  72% ] 1 VUs    0m42.9s/1m0s
+ramp_up    • [   0% ] waiting  1m17.1s
+spike_test • [   0% ] waiting  19m17.1s
+soak_test  • [   0% ] waiting  29m17.1s
+
+running (0h00m43.9s), 001/100 VUs, 42 complete and 0 interrupted iterations
+smoke_test   [  73% ] 1 VUs    0m43.9s/1m0s
+ramp_up    • [   0% ] waiting  1m16.1s
+spike_test • [   0% ] waiting  19m16.1s
+soak_test  • [   0% ] waiting  29m16.1s
+
+running (0h00m44.9s), 001/100 VUs, 43 complete and 0 interrupted iterations
+smoke_test   [  75% ] 1 VUs    0m44.9s/1m0s
+ramp_up    • [   0% ] waiting  1m15.1s
+spike_test • [   0% ] waiting  19m15.1s
+soak_test  • [   0% ] waiting  29m15.1s
+
+running (0h00m45.9s), 001/100 VUs, 44 complete and 0 interrupted iterations
+smoke_test   [  77% ] 1 VUs    0m45.9s/1m0s
+ramp_up    • [   0% ] waiting  1m14.1s
+spike_test • [   0% ] waiting  19m14.1s
+soak_test  • [   0% ] waiting  29m14.1s
+
+running (0h00m46.9s), 001/100 VUs, 45 complete and 0 interrupted iterations
+smoke_test   [  78% ] 1 VUs    0m46.9s/1m0s
+ramp_up    • [   0% ] waiting  1m13.1s
+spike_test • [   0% ] waiting  19m13.1s
+soak_test  • [   0% ] waiting  29m13.1s
+
+running (0h00m47.9s), 001/100 VUs, 46 complete and 0 interrupted iterations
+smoke_test   [  80% ] 1 VUs    0m47.9s/1m0s
+ramp_up    • [   0% ] waiting  1m12.1s
+spike_test • [   0% ] waiting  19m12.1s
+soak_test  • [   0% ] waiting  29m12.1s
+
+running (0h00m48.9s), 001/100 VUs, 47 complete and 0 interrupted iterations
+smoke_test   [  82% ] 1 VUs    0m48.9s/1m0s
+ramp_up    • [   0% ] waiting  1m11.1s
+spike_test • [   0% ] waiting  19m11.1s
+soak_test  • [   0% ] waiting  29m11.1s
+
+running (0h00m49.9s), 001/100 VUs, 48 complete and 0 interrupted iterations
+smoke_test   [  83% ] 1 VUs    0m49.9s/1m0s
+ramp_up    • [   0% ] waiting  1m10.1s
+spike_test • [   0% ] waiting  19m10.1s
+soak_test  • [   0% ] waiting  29m10.1s
+
+running (0h00m50.9s), 001/100 VUs, 49 complete and 0 interrupted iterations
+smoke_test   [  85% ] 1 VUs    0m50.9s/1m0s
+ramp_up    • [   0% ] waiting  1m09.1s
+spike_test • [   0% ] waiting  19m09.1s
+soak_test  • [   0% ] waiting  29m09.1s
+
+running (0h00m51.9s), 001/100 VUs, 50 complete and 0 interrupted iterations
+smoke_test   [  87% ] 1 VUs    0m51.9s/1m0s
+ramp_up    • [   0% ] waiting  1m08.1s
+spike_test • [   0% ] waiting  19m08.1s
+soak_test  • [   0% ] waiting  29m08.1s
+
+running (0h00m52.9s), 001/100 VUs, 51 complete and 0 interrupted iterations
+smoke_test   [  88% ] 1 VUs    0m52.9s/1m0s
+ramp_up    • [   0% ] waiting  1m07.1s
+spike_test • [   0% ] waiting  19m07.1s
+soak_test  • [   0% ] waiting  29m07.1s
+
+running (0h00m53.9s), 001/100 VUs, 52 complete and 0 interrupted iterations
+smoke_test   [  90% ] 1 VUs    0m53.9s/1m0s
+ramp_up    • [   0% ] waiting  1m06.1s
+spike_test • [   0% ] waiting  19m06.1s
+soak_test  • [   0% ] waiting  29m06.1s
+
+running (0h00m54.9s), 001/100 VUs, 53 complete and 0 interrupted iterations
+smoke_test   [  92% ] 1 VUs    0m54.9s/1m0s
+ramp_up    • [   0% ] waiting  1m05.1s
+spike_test • [   0% ] waiting  19m05.1s
+soak_test  • [   0% ] waiting  29m05.1s
+
+running (0h00m55.9s), 001/100 VUs, 54 complete and 0 interrupted iterations
+smoke_test   [  93% ] 1 VUs    0m55.9s/1m0s
+ramp_up    • [   0% ] waiting  1m04.1s
+spike_test • [   0% ] waiting  19m04.1s
+soak_test  • [   0% ] waiting  29m04.1s
+
+running (0h00m56.9s), 001/100 VUs, 55 complete and 0 interrupted iterations
+smoke_test   [  95% ] 1 VUs    0m56.9s/1m0s
+ramp_up    • [   0% ] waiting  1m03.1s
+spike_test • [   0% ] waiting  19m03.1s
+soak_test  • [   0% ] waiting  29m03.1s
+
+running (0h00m57.9s), 001/100 VUs, 56 complete and 0 interrupted iterations
+smoke_test   [  97% ] 1 VUs    0m57.9s/1m0s
+ramp_up    • [   0% ] waiting  1m02.1s
+spike_test • [   0% ] waiting  19m02.1s
+soak_test  • [   0% ] waiting  29m02.1s
+
+running (0h00m58.9s), 001/100 VUs, 57 complete and 0 interrupted iterations
+smoke_test   [  98% ] 1 VUs    0m58.9s/1m0s
+ramp_up    • [   0% ] waiting  1m01.1s
+spike_test • [   0% ] waiting  19m01.1s
+soak_test  • [   0% ] waiting  29m01.1s
+
+running (0h00m59.9s), 001/100 VUs, 58 complete and 0 interrupted iterations
+smoke_test   [ 100% ] 1 VUs    0m59.9s/1m0s
+ramp_up    • [   0% ] waiting  1m00.1s
+spike_test • [   0% ] waiting  19m00.1s
+soak_test  • [   0% ] waiting  29m00.1s
+
+running (0h01m00.9s), 000/100 VUs, 59 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs    1m0s
+ramp_up    • [   0% ] waiting  0m59.1s
+spike_test • [   0% ] waiting  18m59.1s
+soak_test  • [   0% ] waiting  28m59.1s
+
+running (0h01m01.9s), 000/100 VUs, 59 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs    1m0s
+ramp_up    • [   0% ] waiting  0m58.1s
+spike_test • [   0% ] waiting  18m58.1s
+soak_test  • [   0% ] waiting  28m58.1s
+
+running (0h01m02.9s), 000/100 VUs, 59 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs    1m0s
+ramp_up    • [   0% ] waiting  0m57.1s
+spike_test • [   0% ] waiting  18m57.1s
+soak_test  • [   0% ] waiting  28m57.1s
+
+running (0h01m03.9s), 000/100 VUs, 59 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs    1m0s
+ramp_up    • [   0% ] waiting  0m56.1s
+spike_test • [   0% ] waiting  18m56.1s
+soak_test  • [   0% ] waiting  28m56.1s
+
+running (0h01m04.9s), 000/100 VUs, 59 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs    1m0s
+ramp_up    • [   0% ] waiting  0m55.1s
+spike_test • [   0% ] waiting  18m55.1s
+soak_test  • [   0% ] waiting  28m55.1s
+
+running (0h01m05.9s), 000/100 VUs, 59 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs    1m0s
+ramp_up    • [   0% ] waiting  0m54.1s
+spike_test • [   0% ] waiting  18m54.1s
+soak_test  • [   0% ] waiting  28m54.1s
+
+running (0h01m06.9s), 000/100 VUs, 59 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs    1m0s
+ramp_up    • [   0% ] waiting  0m53.1s
+spike_test • [   0% ] waiting  18m53.1s
+soak_test  • [   0% ] waiting  28m53.1s
+
+running (0h01m07.9s), 000/100 VUs, 59 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs    1m0s
+ramp_up    • [   0% ] waiting  0m52.1s
+spike_test • [   0% ] waiting  18m52.1s
+soak_test  • [   0% ] waiting  28m52.1s
+
+running (0h01m08.9s), 000/100 VUs, 59 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs    1m0s
+ramp_up    • [   0% ] waiting  0m51.1s
+spike_test • [   0% ] waiting  18m51.1s
+soak_test  • [   0% ] waiting  28m51.1s
+
+running (0h01m09.9s), 000/100 VUs, 59 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs    1m0s
+ramp_up    • [   0% ] waiting  0m50.1s
+spike_test • [   0% ] waiting  18m50.1s
+soak_test  • [   0% ] waiting  28m50.1s
+
+running (0h01m10.9s), 000/100 VUs, 59 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs    1m0s
+ramp_up    • [   0% ] waiting  0m49.1s
+spike_test • [   0% ] waiting  18m49.1s
+soak_test  • [   0% ] waiting  28m49.1s
+
+running (0h01m11.9s), 000/100 VUs, 59 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs    1m0s
+ramp_up    • [   0% ] waiting  0m48.1s
+spike_test • [   0% ] waiting  18m48.1s
+soak_test  • [   0% ] waiting  28m48.1s
+
+running (0h01m12.9s), 000/100 VUs, 59 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs    1m0s
+ramp_up    • [   0% ] waiting  0m47.1s
+spike_test • [   0% ] waiting  18m47.1s
+soak_test  • [   0% ] waiting  28m47.1s
+
+running (0h01m13.9s), 000/100 VUs, 59 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs    1m0s
+ramp_up    • [   0% ] waiting  0m46.1s
+spike_test • [   0% ] waiting  18m46.1s
+soak_test  • [   0% ] waiting  28m46.1s
+
+running (0h01m14.9s), 000/100 VUs, 59 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs    1m0s
+ramp_up    • [   0% ] waiting  0m45.1s
+spike_test • [   0% ] waiting  18m45.1s
+soak_test  • [   0% ] waiting  28m45.1s
+
+running (0h01m15.9s), 000/100 VUs, 59 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs    1m0s
+ramp_up    • [   0% ] waiting  0m44.1s
+spike_test • [   0% ] waiting  18m44.1s
+soak_test  • [   0% ] waiting  28m44.1s
+
+running (0h01m16.9s), 000/100 VUs, 59 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs    1m0s
+ramp_up    • [   0% ] waiting  0m43.1s
+spike_test • [   0% ] waiting  18m43.1s
+soak_test  • [   0% ] waiting  28m43.1s
+
+running (0h01m17.9s), 000/100 VUs, 59 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs    1m0s
+ramp_up    • [   0% ] waiting  0m42.1s
+spike_test • [   0% ] waiting  18m42.1s
+soak_test  • [   0% ] waiting  28m42.1s
+
+running (0h01m18.9s), 000/100 VUs, 59 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs    1m0s
+ramp_up    • [   0% ] waiting  0m41.1s
+spike_test • [   0% ] waiting  18m41.1s
+soak_test  • [   0% ] waiting  28m41.1s
+
+running (0h01m19.9s), 000/100 VUs, 59 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs    1m0s
+ramp_up    • [   0% ] waiting  0m40.1s
+spike_test • [   0% ] waiting  18m40.1s
+soak_test  • [   0% ] waiting  28m40.1s
+
+running (0h01m20.9s), 000/100 VUs, 59 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs    1m0s
+ramp_up    • [   0% ] waiting  0m39.1s
+spike_test • [   0% ] waiting  18m39.1s
+soak_test  • [   0% ] waiting  28m39.1s
+
+running (0h01m21.9s), 000/100 VUs, 59 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs    1m0s
+ramp_up    • [   0% ] waiting  0m38.1s
+spike_test • [   0% ] waiting  18m38.1s
+soak_test  • [   0% ] waiting  28m38.1s
+
+running (0h01m22.9s), 000/100 VUs, 59 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs    1m0s
+ramp_up    • [   0% ] waiting  0m37.1s
+spike_test • [   0% ] waiting  18m37.1s
+soak_test  • [   0% ] waiting  28m37.1s
+
+running (0h01m23.9s), 000/100 VUs, 59 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs    1m0s
+ramp_up    • [   0% ] waiting  0m36.1s
+spike_test • [   0% ] waiting  18m36.1s
+soak_test  • [   0% ] waiting  28m36.1s
+
+running (0h01m24.9s), 000/100 VUs, 59 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs    1m0s
+ramp_up    • [   0% ] waiting  0m35.1s
+spike_test • [   0% ] waiting  18m35.1s
+soak_test  • [   0% ] waiting  28m35.1s
+
+running (0h01m25.9s), 000/100 VUs, 59 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs    1m0s
+ramp_up    • [   0% ] waiting  0m34.1s
+spike_test • [   0% ] waiting  18m34.1s
+soak_test  • [   0% ] waiting  28m34.1s
+
+running (0h01m26.9s), 000/100 VUs, 59 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs    1m0s
+ramp_up    • [   0% ] waiting  0m33.1s
+spike_test • [   0% ] waiting  18m33.1s
+soak_test  • [   0% ] waiting  28m33.1s
+
+running (0h01m27.9s), 000/100 VUs, 59 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs    1m0s
+ramp_up    • [   0% ] waiting  0m32.1s
+spike_test • [   0% ] waiting  18m32.1s
+soak_test  • [   0% ] waiting  28m32.1s
+
+running (0h01m28.9s), 000/100 VUs, 59 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs    1m0s
+ramp_up    • [   0% ] waiting  0m31.1s
+spike_test • [   0% ] waiting  18m31.1s
+soak_test  • [   0% ] waiting  28m31.1s

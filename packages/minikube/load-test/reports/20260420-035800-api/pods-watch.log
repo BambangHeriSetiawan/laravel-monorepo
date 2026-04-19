@@ -1,0 +1,15 @@
+NAME                                                        READY   STATUS    RESTARTS   AGE
+admin-c48696fc5-lqhgt                                       1/1     Running   0          7m6s
+alertmanager-kube-prometheus-stack-alertmanager-0           2/2     Running   0          5m9s
+api-d7546d8d4-2cksm                                         1/1     Running   0          7m6s
+kube-prometheus-stack-grafana-67f65f8b79-wd5c9              3/3     Running   0          5m55s
+kube-prometheus-stack-kube-state-metrics-65666b9d5c-46pjz   1/1     Running   0          5m55s
+kube-prometheus-stack-operator-7fd6d479f-kj5s5              1/1     Running   0          5m55s
+kube-prometheus-stack-prometheus-node-exporter-2bmqz        1/1     Running   0          5m55s
+leading-5d6fd4594d-kbhxb                                    1/1     Running   0          7m6s
+mysql-6698c4c94d-g7qmb                                      1/1     Running   0          63m
+prometheus-kube-prometheus-stack-prometheus-0               2/2     Running   0          5m2s
+redis-master-0                                              1/1     Running   6          18h
+admin-c48696fc5-lqhgt                                       1/1     Running   0          7m30s
+leading-5d6fd4594d-kbhxb                                    1/1     Running   0          7m39s
+mysql-6698c4c94d-g7qmb                                      1/1     Running   0          63m

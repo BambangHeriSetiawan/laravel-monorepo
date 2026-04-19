@@ -52,4 +52,9 @@ module "simxstudio" {
   grafana_admin_password = var.grafana_admin_password
   grafana_domain         = var.grafana_domain
   prometheus_retention   = var.prometheus_retention
+
+  # Heavy Query Sampler
+  heavy_query_enabled      = var.heavy_query_enabled
+  heavy_query_threshold_ms = var.heavy_query_threshold_ms
+  heavy_query_sample_rate  = var.heavy_query_sample_rate
 }
