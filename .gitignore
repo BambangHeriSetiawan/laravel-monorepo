@@ -1,0 +1,21 @@
+/vendor
+/node_modules
+.env
+.phpunit.result.cache
+storage/*.key
+
+# Apps
+app/*/vendor
+app/*/node_modules
+app/*/public/build
+app/*/.env
+
+# Packages
+packages/*/vendor
+packages/*/node_modules
+
+# Terraform
+**/.terraform
+**/.terraform.lock.hcl
+**/terraform.tfstate
+**/terraform.tfstate.backup

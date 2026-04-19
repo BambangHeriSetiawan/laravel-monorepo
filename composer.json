@@ -1,0 +1,19 @@
+{
+  "name": "simxstudio/monorepo",
+  "version": "1.0.0",
+  "repositories": [
+    {
+      "type": "path",
+      "url": "packages/shared-core",
+      "options": {
+        "symlink": true
+      }
+    }
+  ],
+  "require": {
+    "simxstudio/shared-core": "*@dev",
+    "laravel/octane": "*"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

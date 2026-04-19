@@ -1,0 +1,8 @@
+{
+  "name": "simxstudio/shared-core",
+  "autoload": {
+    "psr-4": {
+      "Simx\\Core\\": "src/"
+    }
+  }
+}
