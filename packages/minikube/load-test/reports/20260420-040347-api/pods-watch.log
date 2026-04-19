@@ -329,3 +329,83 @@ admin-c48696fc5-lqhgt                                       0/1     Running     
 api-d7546d8d4-k9f95                                         1/1     Running           4 (21s ago)     13m
 admin-c48696fc5-fbhlt                                       1/1     Running           3 (17s ago)     9m35s
 prometheus-kube-prometheus-stack-prometheus-0               1/2     Running           1 (5s ago)      27m
+api-d7546d8d4-2cksm                                         0/1     Running           3 (105s ago)    29m
+api-d7546d8d4-b699k                                         0/1     Running           5 (69s ago)     10m
+prometheus-kube-prometheus-stack-prometheus-0               1/2     Running           1 (13s ago)     27m
+api-d7546d8d4-b699k                                         1/1     Running           5 (84s ago)     11m
+api-d7546d8d4-k9f95                                         0/1     Running           4 (50s ago)     13m
+api-d7546d8d4-k9f95                                         1/1     Running           4 (55s ago)     13m
+api-d7546d8d4-2cksm                                         0/1     Running           4 (3s ago)      30m
+admin-c48696fc5-lqhgt                                       0/1     Running           4 (4s ago)      30m
+prometheus-kube-prometheus-stack-prometheus-0               1/2     Running           1 (42s ago)     28m
+prometheus-kube-prometheus-stack-prometheus-0               2/2     Running           1 (43s ago)     28m
+kube-prometheus-stack-grafana-67f65f8b79-wd5c9              3/3     Running           0               29m
+redis-master-0                                              1/1     Running           6               18h
+admin-c48696fc5-9cdrn                                       1/1     Running           2 (2m ago)      8m33s
+admin-c48696fc5-lqhgt                                       1/1     Running           4 (16s ago)     30m
+api-d7546d8d4-2cksm                                         1/1     Running           4 (16s ago)     30m
+leading-5d6fd4594d-kbhxb                                    1/1     Running           0               30m
+api-d7546d8d4-vvt2d                                         1/1     Running           3 (92s ago)     13m
+prometheus-kube-prometheus-stack-prometheus-0               2/2     Running           1 (108s ago)    29m
+admin-c48696fc5-lqhgt                                       1/1     Running           4 (98s ago)     31m
+redis-master-0                                              1/1     Running           6               18h
+admin-c48696fc5-9cdrn                                       1/1     Running           2 (3m28s ago)   10m
+api-d7546d8d4-vvt2d                                         1/1     Running           3 (2m52s ago)   14m
+kube-prometheus-stack-prometheus-node-exporter-2bmqz        1/1     Running           0               31m
+kube-prometheus-stack-kube-state-metrics-65666b9d5c-46pjz   1/1     Running           0               31m
+kube-prometheus-stack-grafana-67f65f8b79-wd5c9              3/3     Running           0               31m
+prometheus-kube-prometheus-stack-prometheus-0               2/2     Running           1 (3m3s ago)    30m
+api-d7546d8d4-2cksm                                         1/1     Running           4 (2m46s ago)   33m
+api-d7546d8d4-qdmr4                                         0/1     Running           1 (4m23s ago)   11m
+api-d7546d8d4-k9f95                                         0/1     Running           4 (3m46s ago)   16m
+admin-c48696fc5-9cdrn                                       1/1     Running           2 (4m38s ago)   11m
+api-d7546d8d4-k9f95                                         1/1     Running           4 (3m48s ago)   16m
+api-d7546d8d4-b699k                                         0/1     Running           5 (4m32s ago)   14m
+api-d7546d8d4-vvt2d                                         0/1     Running           3 (3m48s ago)   15m
+admin-c48696fc5-fbhlt                                       0/1     Running           3 (3m54s ago)   13m
+api-d7546d8d4-2cksm                                         0/1     Running           4 (3m6s ago)    33m
+admin-c48696fc5-lqhgt                                       1/1     Running           4 (3m10s ago)   33m
+admin-c48696fc5-lqhgt                                       0/1     Running           4 (3m12s ago)   33m
+admin-c48696fc5-9vthq                                       0/1     Running           3 (4m38s ago)   16m
+api-d7546d8d4-qdmr4                                         1/1     Running           1 (4m45s ago)   11m
+admin-c48696fc5-9cdrn                                       0/1     Running           2 (4m58s ago)   11m
+api-d7546d8d4-k9f95                                         0/1     Running           4 (4m9s ago)    17m
+admin-c48696fc5-bjsjk                                       0/1     Running           1 (4m24s ago)   6m13s
+alertmanager-kube-prometheus-stack-alertmanager-0           2/2     Running           0               31m
+api-d7546d8d4-vvt2d                                         0/1     Running           3 (4m23s ago)   16m
+prometheus-kube-prometheus-stack-prometheus-0               1/2     Running           1 (4m7s ago)    31m
+api-d7546d8d4-qdmr4                                         0/1     Running           1 (5m3s ago)    12m
+kube-prometheus-stack-operator-7fd6d479f-kj5s5              1/1     Running           0               32m
+api-d7546d8d4-b699k                                         0/1     Running           5 (5m10s ago)   14m
+api-d7546d8d4-2cksm                                         0/1     Running           4 (3m32s ago)   33m
+admin-c48696fc5-fbhlt                                       0/1     Running           3 (4m23s ago)   13m
+kube-prometheus-stack-prometheus-node-exporter-2bmqz        1/1     Running           0               32m
+prometheus-kube-prometheus-stack-prometheus-0               2/2     Running           1 (4m19s ago)   31m
+kube-prometheus-stack-grafana-67f65f8b79-wd5c9              3/3     Running           0               32m
+api-d7546d8d4-2cksm                                         0/1     Running           5 (7s ago)      34m
+prometheus-kube-prometheus-stack-prometheus-0               1/2     Running           1 (4m37s ago)   32m
+redis-master-0                                              1/1     Running           6               18h
+api-d7546d8d4-vvt2d                                         0/1     Running           4 (9s ago)      17m
+admin-c48696fc5-9vthq                                       0/1     Running           4 (20s ago)     17m
+api-d7546d8d4-b699k                                         0/1     Running           6 (22s ago)     15m
+admin-c48696fc5-9cdrn                                       0/1     Running           3 (14s ago)     12m
+api-d7546d8d4-k9f95                                         0/1     Running           5 (11s ago)     18m
+admin-c48696fc5-bjsjk                                       0/1     Running           2               7m6s
+admin-c48696fc5-fbhlt                                       0/1     Running           4 (24s ago)     14m
+admin-c48696fc5-lqhgt                                       0/1     Running           5 (21s ago)     34m
+api-d7546d8d4-qdmr4                                         0/1     Running           2 (6s ago)      13m
+prometheus-kube-prometheus-stack-prometheus-0               1/2     Running           2               32m
+api-d7546d8d4-b699k                                         1/1     Running           6 (52s ago)     16m
+api-d7546d8d4-2cksm                                         1/1     Running           5 (54s ago)     34m
+admin-c48696fc5-fbhlt                                       1/1     Running           4 (45s ago)     14m
+alertmanager-kube-prometheus-stack-alertmanager-0           2/2     Running           0               33m
+admin-c48696fc5-9vthq                                       1/1     Running           4 (55s ago)     17m
+admin-c48696fc5-lqhgt                                       1/1     Running           5               35m
+admin-c48696fc5-bjsjk                                       1/1     Running           2               7m31s
+api-d7546d8d4-vvt2d                                         1/1     Running           4 (49s ago)     17m
+admin-c48696fc5-9cdrn                                       1/1     Running           3 (47s ago)     13m
+mysql-6698c4c94d-g7qmb                                      1/1     Running           0               91m
+prometheus-kube-prometheus-stack-prometheus-0               1/2     Running           2               33m
+api-d7546d8d4-k9f95                                         1/1     Running           5 (45s ago)     18m
+kube-prometheus-stack-grafana-67f65f8b79-wd5c9              3/3     Running           0               33m
+api-d7546d8d4-qdmr4                                         1/1     Running           2 (27s ago)     13m

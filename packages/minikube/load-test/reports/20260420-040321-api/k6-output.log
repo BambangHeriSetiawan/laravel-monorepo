@@ -7596,3 +7596,2421 @@ smoke_test ✓ [ 100% ] 1 VUs        1m0s
 ramp_up      [  95% ] 045/100 VUs  15m13.0s/16m00.0s
 spike_test • [   0% ] waiting      02m47.0s
 soak_test  • [   0% ] waiting      12m47.0s
+time="2026-04-20T04:20:35+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:20:35+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+
+running (0h17m14.0s), 044/100 VUs, 13407 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  95% ] 044/100 VUs  15m14.0s/16m00.0s
+spike_test • [   0% ] waiting      02m46.0s
+soak_test  • [   0% ] waiting      12m46.0s
+time="2026-04-20T04:20:36+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:20:36+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:20:36+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:20:36+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:20:36+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:20:36+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:20:37+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:20:37+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+
+running (0h17m15.0s), 042/100 VUs, 13418 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  95% ] 042/100 VUs  15m15.0s/16m00.0s
+spike_test • [   0% ] waiting      02m45.0s
+soak_test  • [   0% ] waiting      12m45.0s
+time="2026-04-20T04:20:37+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:20:37+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:20:37+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:20:37+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:20:37+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:20:38+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+
+running (0h17m16.0s), 042/100 VUs, 13431 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  95% ] 042/100 VUs  15m16.0s/16m00.0s
+spike_test • [   0% ] waiting      02m44.0s
+soak_test  • [   0% ] waiting      12m44.0s
+time="2026-04-20T04:20:38+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:20:38+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:20:38+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+
+running (0h17m17.0s), 040/100 VUs, 13441 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  96% ] 040/100 VUs  15m17.0s/16m00.0s
+spike_test • [   0% ] waiting      02m43.0s
+soak_test  • [   0% ] waiting      12m43.0s
+time="2026-04-20T04:20:39+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:20:39+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:20:39+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:20:40+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+
+running (0h17m18.0s), 040/100 VUs, 13447 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  96% ] 040/100 VUs  15m18.0s/16m00.0s
+spike_test • [   0% ] waiting      02m42.0s
+soak_test  • [   0% ] waiting      12m42.0s
+
+running (0h17m19.0s), 039/100 VUs, 13456 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  96% ] 039/100 VUs  15m19.0s/16m00.0s
+spike_test • [   0% ] waiting      02m41.0s
+soak_test  • [   0% ] waiting      12m41.0s
+
+running (0h17m20.0s), 037/100 VUs, 13466 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  96% ] 037/100 VUs  15m20.0s/16m00.0s
+spike_test • [   0% ] waiting      02m40.0s
+soak_test  • [   0% ] waiting      12m40.0s
+
+running (0h17m21.0s), 037/100 VUs, 13476 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  96% ] 037/100 VUs  15m21.0s/16m00.0s
+spike_test • [   0% ] waiting      02m39.0s
+soak_test  • [   0% ] waiting      12m39.0s
+
+running (0h17m22.0s), 036/100 VUs, 13488 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  96% ] 036/100 VUs  15m22.0s/16m00.0s
+spike_test • [   0% ] waiting      02m38.0s
+soak_test  • [   0% ] waiting      12m38.0s
+
+running (0h17m23.0s), 036/100 VUs, 13495 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  96% ] 036/100 VUs  15m23.0s/16m00.0s
+spike_test • [   0% ] waiting      02m37.0s
+soak_test  • [   0% ] waiting      12m37.0s
+
+running (0h17m24.0s), 034/100 VUs, 13499 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  96% ] 034/100 VUs  15m24.0s/16m00.0s
+spike_test • [   0% ] waiting      02m36.0s
+soak_test  • [   0% ] waiting      12m36.0s
+time="2026-04-20T04:20:46+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:20:46+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:20:46+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:20:46+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+
+running (0h17m25.0s), 033/100 VUs, 13506 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  96% ] 033/100 VUs  15m25.0s/16m00.0s
+spike_test • [   0% ] waiting      02m35.0s
+soak_test  • [   0% ] waiting      12m35.0s
+time="2026-04-20T04:20:47+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:20:47+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:20:47+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:20:47+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:20:47+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:20:47+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+
+running (0h17m26.0s), 032/100 VUs, 13510 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  96% ] 032/100 VUs  15m26.0s/16m00.0s
+spike_test • [   0% ] waiting      02m34.0s
+soak_test  • [   0% ] waiting      12m34.0s
+time="2026-04-20T04:20:48+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:20:48+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:20:48+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:20:48+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+
+running (0h17m27.0s), 029/100 VUs, 13517 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  97% ] 029/100 VUs  15m27.0s/16m00.0s
+spike_test • [   0% ] waiting      02m33.0s
+soak_test  • [   0% ] waiting      12m33.0s
+time="2026-04-20T04:20:49+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:20:50+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+
+running (0h17m28.0s), 029/100 VUs, 13523 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  97% ] 029/100 VUs  15m28.0s/16m00.0s
+spike_test • [   0% ] waiting      02m32.0s
+soak_test  • [   0% ] waiting      12m32.0s
+time="2026-04-20T04:20:50+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:20:50+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+
+running (0h17m29.0s), 029/100 VUs, 13527 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  97% ] 029/100 VUs  15m29.0s/16m00.0s
+spike_test • [   0% ] waiting      02m31.0s
+soak_test  • [   0% ] waiting      12m31.0s
+time="2026-04-20T04:20:52+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+
+running (0h17m30.0s), 027/100 VUs, 13532 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  97% ] 027/100 VUs  15m30.0s/16m00.0s
+spike_test • [   0% ] waiting      02m30.0s
+soak_test  • [   0% ] waiting      12m30.0s
+time="2026-04-20T04:20:52+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:20:52+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:20:52+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:20:53+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:20:53+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+
+running (0h17m31.0s), 027/100 VUs, 13544 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  97% ] 027/100 VUs  15m31.0s/16m00.0s
+spike_test • [   0% ] waiting      02m29.0s
+soak_test  • [   0% ] waiting      12m29.0s
+time="2026-04-20T04:20:53+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:20:53+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:20:54+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+
+running (0h17m32.0s), 024/100 VUs, 13562 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  97% ] 024/100 VUs  15m32.0s/16m00.0s
+spike_test • [   0% ] waiting      02m28.0s
+soak_test  • [   0% ] waiting      12m28.0s
+time="2026-04-20T04:20:54+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+
+running (0h17m33.0s), 023/100 VUs, 13569 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  97% ] 023/100 VUs  15m33.0s/16m00.0s
+spike_test • [   0% ] waiting      02m27.0s
+soak_test  • [   0% ] waiting      12m27.0s
+
+running (0h17m34.0s), 023/100 VUs, 13575 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  97% ] 023/100 VUs  15m34.0s/16m00.0s
+spike_test • [   0% ] waiting      02m26.0s
+soak_test  • [   0% ] waiting      12m26.0s
+time="2026-04-20T04:20:56+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+
+running (0h17m35.0s), 023/100 VUs, 13584 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  97% ] 023/100 VUs  15m35.0s/16m00.0s
+spike_test • [   0% ] waiting      02m25.0s
+soak_test  • [   0% ] waiting      12m25.0s
+
+running (0h17m36.0s), 023/100 VUs, 13595 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  97% ] 023/100 VUs  15m36.0s/16m00.0s
+spike_test • [   0% ] waiting      02m24.0s
+soak_test  • [   0% ] waiting      12m24.0s
+
+running (0h17m37.0s), 020/100 VUs, 13609 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  98% ] 020/100 VUs  15m37.0s/16m00.0s
+spike_test • [   0% ] waiting      02m23.0s
+soak_test  • [   0% ] waiting      12m23.0s
+
+running (0h17m38.0s), 020/100 VUs, 13617 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  98% ] 020/100 VUs  15m38.0s/16m00.0s
+spike_test • [   0% ] waiting      02m22.0s
+soak_test  • [   0% ] waiting      12m22.0s
+
+running (0h17m39.0s), 020/100 VUs, 13624 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  98% ] 020/100 VUs  15m39.0s/16m00.0s
+spike_test • [   0% ] waiting      02m21.0s
+soak_test  • [   0% ] waiting      12m21.0s
+
+running (0h17m40.0s), 020/100 VUs, 13636 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  98% ] 020/100 VUs  15m40.0s/16m00.0s
+spike_test • [   0% ] waiting      02m20.0s
+soak_test  • [   0% ] waiting      12m20.0s
+
+running (0h17m41.0s), 017/100 VUs, 13649 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  98% ] 017/100 VUs  15m41.0s/16m00.0s
+spike_test • [   0% ] waiting      02m19.0s
+soak_test  • [   0% ] waiting      12m19.0s
+
+running (0h17m42.0s), 017/100 VUs, 13658 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  98% ] 017/100 VUs  15m42.0s/16m00.0s
+spike_test • [   0% ] waiting      02m18.0s
+soak_test  • [   0% ] waiting      12m18.0s
+
+running (0h17m43.0s), 017/100 VUs, 13659 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  98% ] 017/100 VUs  15m43.0s/16m00.0s
+spike_test • [   0% ] waiting      02m17.0s
+soak_test  • [   0% ] waiting      12m17.0s
+
+running (0h17m44.0s), 015/100 VUs, 13664 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  98% ] 015/100 VUs  15m44.0s/16m00.0s
+spike_test • [   0% ] waiting      02m16.0s
+soak_test  • [   0% ] waiting      12m16.0s
+
+running (0h17m45.0s), 015/100 VUs, 13670 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  98% ] 015/100 VUs  15m45.0s/16m00.0s
+spike_test • [   0% ] waiting      02m15.0s
+soak_test  • [   0% ] waiting      12m15.0s
+
+running (0h17m46.0s), 015/100 VUs, 13675 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  99% ] 015/100 VUs  15m46.0s/16m00.0s
+spike_test • [   0% ] waiting      02m14.0s
+soak_test  • [   0% ] waiting      12m14.0s
+
+running (0h17m47.0s), 012/100 VUs, 13683 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  99% ] 012/100 VUs  15m47.0s/16m00.0s
+spike_test • [   0% ] waiting      02m13.0s
+soak_test  • [   0% ] waiting      12m13.0s
+
+running (0h17m48.0s), 012/100 VUs, 13689 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  99% ] 012/100 VUs  15m48.0s/16m00.0s
+spike_test • [   0% ] waiting      02m12.0s
+soak_test  • [   0% ] waiting      12m12.0s
+
+running (0h17m49.0s), 011/100 VUs, 13698 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  99% ] 011/100 VUs  15m49.0s/16m00.0s
+spike_test • [   0% ] waiting      02m11.0s
+soak_test  • [   0% ] waiting      12m11.0s
+
+running (0h17m50.0s), 010/100 VUs, 13706 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  99% ] 010/100 VUs  15m50.0s/16m00.0s
+spike_test • [   0% ] waiting      02m10.0s
+soak_test  • [   0% ] waiting      12m10.0s
+
+running (0h17m51.0s), 010/100 VUs, 13714 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  99% ] 010/100 VUs  15m51.0s/16m00.0s
+spike_test • [   0% ] waiting      02m09.0s
+soak_test  • [   0% ] waiting      12m09.0s
+
+running (0h17m52.0s), 008/100 VUs, 13718 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  99% ] 008/100 VUs  15m52.0s/16m00.0s
+spike_test • [   0% ] waiting      02m08.0s
+soak_test  • [   0% ] waiting      12m08.0s
+
+running (0h17m53.0s), 008/100 VUs, 13723 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  99% ] 008/100 VUs  15m53.0s/16m00.0s
+spike_test • [   0% ] waiting      02m07.0s
+soak_test  • [   0% ] waiting      12m07.0s
+
+running (0h17m54.0s), 007/100 VUs, 13726 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  99% ] 007/100 VUs  15m54.0s/16m00.0s
+spike_test • [   0% ] waiting      02m06.0s
+soak_test  • [   0% ] waiting      12m06.0s
+
+running (0h17m55.0s), 006/100 VUs, 13730 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [  99% ] 006/100 VUs  15m55.0s/16m00.0s
+spike_test • [   0% ] waiting      02m05.0s
+soak_test  • [   0% ] waiting      12m05.0s
+
+running (0h17m56.0s), 006/100 VUs, 13731 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [ 100% ] 006/100 VUs  15m56.0s/16m00.0s
+spike_test • [   0% ] waiting      02m04.0s
+soak_test  • [   0% ] waiting      12m04.0s
+
+running (0h17m57.0s), 004/100 VUs, 13733 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [ 100% ] 004/100 VUs  15m57.0s/16m00.0s
+spike_test • [   0% ] waiting      02m03.0s
+soak_test  • [   0% ] waiting      12m03.0s
+
+running (0h17m58.0s), 004/100 VUs, 13734 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [ 100% ] 004/100 VUs  15m58.0s/16m00.0s
+spike_test • [   0% ] waiting      02m02.0s
+soak_test  • [   0% ] waiting      12m02.0s
+
+running (0h17m59.0s), 003/100 VUs, 13738 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [ 100% ] 003/100 VUs  15m59.0s/16m00.0s
+spike_test • [   0% ] waiting      02m01.0s
+soak_test  • [   0% ] waiting      12m01.0s
+
+running (0h18m00.0s), 003/100 VUs, 13738 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up      [ 100% ] 003/100 VUs  16m00.0s/16m00.0s
+spike_test • [   0% ] waiting      02m00.0s
+soak_test  • [   0% ] waiting      12m00.0s
+
+running (0h18m01.0s), 001/100 VUs, 13740 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ↓ [ 100% ] 003/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m59.0s
+soak_test  • [   0% ] waiting      11m59.0s
+
+running (0h18m02.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m58.0s
+soak_test  • [   0% ] waiting      11m58.0s
+
+running (0h18m03.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m57.0s
+soak_test  • [   0% ] waiting      11m57.0s
+
+running (0h18m04.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m56.0s
+soak_test  • [   0% ] waiting      11m56.0s
+
+running (0h18m05.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m55.0s
+soak_test  • [   0% ] waiting      11m55.0s
+
+running (0h18m06.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m54.0s
+soak_test  • [   0% ] waiting      11m54.0s
+
+running (0h18m07.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m53.0s
+soak_test  • [   0% ] waiting      11m53.0s
+
+running (0h18m08.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m52.0s
+soak_test  • [   0% ] waiting      11m52.0s
+
+running (0h18m09.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m51.0s
+soak_test  • [   0% ] waiting      11m51.0s
+
+running (0h18m10.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m50.0s
+soak_test  • [   0% ] waiting      11m50.0s
+
+running (0h18m11.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m49.0s
+soak_test  • [   0% ] waiting      11m49.0s
+
+running (0h18m12.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m48.0s
+soak_test  • [   0% ] waiting      11m48.0s
+
+running (0h18m13.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m47.0s
+soak_test  • [   0% ] waiting      11m47.0s
+
+running (0h18m14.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m46.0s
+soak_test  • [   0% ] waiting      11m46.0s
+
+running (0h18m15.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m45.0s
+soak_test  • [   0% ] waiting      11m45.0s
+
+running (0h18m16.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m44.0s
+soak_test  • [   0% ] waiting      11m44.0s
+
+running (0h18m17.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m43.0s
+soak_test  • [   0% ] waiting      11m43.0s
+
+running (0h18m18.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m42.0s
+soak_test  • [   0% ] waiting      11m42.0s
+
+running (0h18m19.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m41.0s
+soak_test  • [   0% ] waiting      11m41.0s
+
+running (0h18m20.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m40.0s
+soak_test  • [   0% ] waiting      11m40.0s
+
+running (0h18m21.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m39.0s
+soak_test  • [   0% ] waiting      11m39.0s
+
+running (0h18m22.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m38.0s
+soak_test  • [   0% ] waiting      11m38.0s
+
+running (0h18m23.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m37.0s
+soak_test  • [   0% ] waiting      11m37.0s
+
+running (0h18m24.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m36.0s
+soak_test  • [   0% ] waiting      11m36.0s
+
+running (0h18m25.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m35.0s
+soak_test  • [   0% ] waiting      11m35.0s
+
+running (0h18m26.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m34.0s
+soak_test  • [   0% ] waiting      11m34.0s
+
+running (0h18m27.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m33.0s
+soak_test  • [   0% ] waiting      11m33.0s
+
+running (0h18m28.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m32.0s
+soak_test  • [   0% ] waiting      11m32.0s
+
+running (0h18m29.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m31.0s
+soak_test  • [   0% ] waiting      11m31.0s
+
+running (0h18m30.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m30.0s
+soak_test  • [   0% ] waiting      11m30.0s
+
+running (0h18m31.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m29.0s
+soak_test  • [   0% ] waiting      11m29.0s
+
+running (0h18m32.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m28.0s
+soak_test  • [   0% ] waiting      11m28.0s
+
+running (0h18m33.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m27.0s
+soak_test  • [   0% ] waiting      11m27.0s
+
+running (0h18m34.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m26.0s
+soak_test  • [   0% ] waiting      11m26.0s
+
+running (0h18m35.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m25.0s
+soak_test  • [   0% ] waiting      11m25.0s
+
+running (0h18m36.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m24.0s
+soak_test  • [   0% ] waiting      11m24.0s
+
+running (0h18m37.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m23.0s
+soak_test  • [   0% ] waiting      11m23.0s
+
+running (0h18m38.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m22.0s
+soak_test  • [   0% ] waiting      11m22.0s
+
+running (0h18m39.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m21.0s
+soak_test  • [   0% ] waiting      11m21.0s
+
+running (0h18m40.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m20.0s
+soak_test  • [   0% ] waiting      11m20.0s
+
+running (0h18m41.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m19.0s
+soak_test  • [   0% ] waiting      11m19.0s
+
+running (0h18m42.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m18.0s
+soak_test  • [   0% ] waiting      11m18.0s
+
+running (0h18m43.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m17.0s
+soak_test  • [   0% ] waiting      11m17.0s
+
+running (0h18m44.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m16.0s
+soak_test  • [   0% ] waiting      11m16.0s
+
+running (0h18m45.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m15.0s
+soak_test  • [   0% ] waiting      11m15.0s
+
+running (0h18m46.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m14.0s
+soak_test  • [   0% ] waiting      11m14.0s
+
+running (0h18m47.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m13.0s
+soak_test  • [   0% ] waiting      11m13.0s
+
+running (0h18m48.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m12.0s
+soak_test  • [   0% ] waiting      11m12.0s
+
+running (0h18m49.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m11.0s
+soak_test  • [   0% ] waiting      11m11.0s
+
+running (0h18m50.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m10.0s
+soak_test  • [   0% ] waiting      11m10.0s
+
+running (0h18m51.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m09.0s
+soak_test  • [   0% ] waiting      11m09.0s
+
+running (0h18m52.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m08.0s
+soak_test  • [   0% ] waiting      11m08.0s
+
+running (0h18m53.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m07.0s
+soak_test  • [   0% ] waiting      11m07.0s
+
+running (0h18m54.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m06.0s
+soak_test  • [   0% ] waiting      11m06.0s
+
+running (0h18m55.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m05.0s
+soak_test  • [   0% ] waiting      11m05.0s
+
+running (0h18m56.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m04.0s
+soak_test  • [   0% ] waiting      11m04.0s
+
+running (0h18m57.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m03.0s
+soak_test  • [   0% ] waiting      11m03.0s
+
+running (0h18m58.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m02.0s
+soak_test  • [   0% ] waiting      11m02.0s
+
+running (0h18m59.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m01.0s
+soak_test  • [   0% ] waiting      11m01.0s
+
+running (0h19m00.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      01m00.0s
+soak_test  • [   0% ] waiting      11m00.0s
+
+running (0h19m01.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m59.0s
+soak_test  • [   0% ] waiting      10m59.0s
+
+running (0h19m02.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m58.0s
+soak_test  • [   0% ] waiting      10m58.0s
+
+running (0h19m03.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m57.0s
+soak_test  • [   0% ] waiting      10m57.0s
+
+running (0h19m04.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m56.0s
+soak_test  • [   0% ] waiting      10m56.0s
+
+running (0h19m05.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m55.0s
+soak_test  • [   0% ] waiting      10m55.0s
+
+running (0h19m06.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m54.0s
+soak_test  • [   0% ] waiting      10m54.0s
+
+running (0h19m07.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m53.0s
+soak_test  • [   0% ] waiting      10m53.0s
+
+running (0h19m08.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m52.0s
+soak_test  • [   0% ] waiting      10m52.0s
+
+running (0h19m09.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m51.0s
+soak_test  • [   0% ] waiting      10m51.0s
+
+running (0h19m10.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m50.0s
+soak_test  • [   0% ] waiting      10m50.0s
+
+running (0h19m11.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m49.0s
+soak_test  • [   0% ] waiting      10m49.0s
+
+running (0h19m12.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m48.0s
+soak_test  • [   0% ] waiting      10m48.0s
+
+running (0h19m13.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m47.0s
+soak_test  • [   0% ] waiting      10m47.0s
+
+running (0h19m14.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m46.0s
+soak_test  • [   0% ] waiting      10m46.0s
+
+running (0h19m15.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m45.0s
+soak_test  • [   0% ] waiting      10m45.0s
+
+running (0h19m16.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m44.0s
+soak_test  • [   0% ] waiting      10m44.0s
+
+running (0h19m17.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m43.0s
+soak_test  • [   0% ] waiting      10m43.0s
+
+running (0h19m18.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m42.0s
+soak_test  • [   0% ] waiting      10m42.0s
+
+running (0h19m19.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m41.0s
+soak_test  • [   0% ] waiting      10m41.0s
+
+running (0h19m20.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m40.0s
+soak_test  • [   0% ] waiting      10m40.0s
+
+running (0h19m21.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m39.0s
+soak_test  • [   0% ] waiting      10m39.0s
+
+running (0h19m22.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m38.0s
+soak_test  • [   0% ] waiting      10m38.0s
+
+running (0h19m23.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m37.0s
+soak_test  • [   0% ] waiting      10m37.0s
+
+running (0h19m24.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m36.0s
+soak_test  • [   0% ] waiting      10m36.0s
+
+running (0h19m25.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m35.0s
+soak_test  • [   0% ] waiting      10m35.0s
+
+running (0h19m26.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m34.0s
+soak_test  • [   0% ] waiting      10m34.0s
+
+running (0h19m27.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m33.0s
+soak_test  • [   0% ] waiting      10m33.0s
+
+running (0h19m28.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m32.0s
+soak_test  • [   0% ] waiting      10m32.0s
+
+running (0h19m29.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m31.0s
+soak_test  • [   0% ] waiting      10m31.0s
+
+running (0h19m30.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m30.0s
+soak_test  • [   0% ] waiting      10m30.0s
+
+running (0h19m31.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m29.0s
+soak_test  • [   0% ] waiting      10m29.0s
+
+running (0h19m32.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m28.0s
+soak_test  • [   0% ] waiting      10m28.0s
+
+running (0h19m33.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m27.0s
+soak_test  • [   0% ] waiting      10m27.0s
+
+running (0h19m34.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m26.0s
+soak_test  • [   0% ] waiting      10m26.0s
+
+running (0h19m35.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m25.0s
+soak_test  • [   0% ] waiting      10m25.0s
+
+running (0h19m36.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m24.0s
+soak_test  • [   0% ] waiting      10m24.0s
+
+running (0h19m37.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m23.0s
+soak_test  • [   0% ] waiting      10m23.0s
+
+running (0h19m38.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m22.0s
+soak_test  • [   0% ] waiting      10m22.0s
+
+running (0h19m39.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m21.0s
+soak_test  • [   0% ] waiting      10m21.0s
+
+running (0h19m40.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m20.0s
+soak_test  • [   0% ] waiting      10m20.0s
+
+running (0h19m41.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m19.0s
+soak_test  • [   0% ] waiting      10m19.0s
+
+running (0h19m42.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m18.0s
+soak_test  • [   0% ] waiting      10m18.0s
+
+running (0h19m43.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m17.0s
+soak_test  • [   0% ] waiting      10m17.0s
+
+running (0h19m44.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m16.0s
+soak_test  • [   0% ] waiting      10m16.0s
+
+running (0h19m45.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m15.0s
+soak_test  • [   0% ] waiting      10m15.0s
+
+running (0h19m46.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m14.0s
+soak_test  • [   0% ] waiting      10m14.0s
+
+running (0h19m47.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m13.0s
+soak_test  • [   0% ] waiting      10m13.0s
+
+running (0h19m48.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m12.0s
+soak_test  • [   0% ] waiting      10m12.0s
+
+running (0h19m49.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m11.0s
+soak_test  • [   0% ] waiting      10m11.0s
+
+running (0h19m50.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m10.0s
+soak_test  • [   0% ] waiting      10m10.0s
+
+running (0h19m51.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m09.0s
+soak_test  • [   0% ] waiting      10m09.0s
+
+running (0h19m52.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m08.0s
+soak_test  • [   0% ] waiting      10m08.0s
+
+running (0h19m53.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m07.0s
+soak_test  • [   0% ] waiting      10m07.0s
+
+running (0h19m54.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m06.0s
+soak_test  • [   0% ] waiting      10m06.0s
+
+running (0h19m55.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m05.0s
+soak_test  • [   0% ] waiting      10m05.0s
+
+running (0h19m56.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m04.0s
+soak_test  • [   0% ] waiting      10m04.0s
+
+running (0h19m57.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m03.0s
+soak_test  • [   0% ] waiting      10m03.0s
+
+running (0h19m58.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m02.0s
+soak_test  • [   0% ] waiting      10m02.0s
+
+running (0h19m59.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m01.0s
+soak_test  • [   0% ] waiting      10m01.0s
+
+running (0h20m00.0s), 000/100 VUs, 13741 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test • [   0% ] waiting      00m00.0s
+soak_test  • [   0% ] waiting      10m00.0s
+
+running (0h20m01.0s), 005/100 VUs, 13742 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   0% ] 005/100 VUs  0m01.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m59.0s
+
+running (0h20m02.0s), 005/100 VUs, 13747 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   0% ] 005/100 VUs  0m02.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m58.0s
+
+running (0h20m03.0s), 005/100 VUs, 13748 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   1% ] 005/100 VUs  0m03.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m57.0s
+
+running (0h20m04.0s), 005/100 VUs, 13750 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   1% ] 005/100 VUs  0m04.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m56.0s
+
+running (0h20m05.0s), 005/100 VUs, 13751 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   1% ] 005/100 VUs  0m05.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m55.0s
+
+running (0h20m06.0s), 005/100 VUs, 13754 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   1% ] 005/100 VUs  0m06.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m54.0s
+
+running (0h20m07.0s), 005/100 VUs, 13756 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   2% ] 005/100 VUs  0m07.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m53.0s
+
+running (0h20m08.0s), 005/100 VUs, 13756 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   2% ] 005/100 VUs  0m08.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m52.0s
+
+running (0h20m09.0s), 005/100 VUs, 13762 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   2% ] 005/100 VUs  0m09.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m51.0s
+
+running (0h20m10.0s), 005/100 VUs, 13768 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   2% ] 005/100 VUs  0m10.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m50.0s
+
+running (0h20m11.0s), 005/100 VUs, 13771 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   3% ] 005/100 VUs  0m11.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m49.0s
+
+running (0h20m12.0s), 005/100 VUs, 13775 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   3% ] 005/100 VUs  0m12.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m48.0s
+
+running (0h20m13.0s), 005/100 VUs, 13780 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   3% ] 005/100 VUs  0m13.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m47.0s
+
+running (0h20m14.0s), 005/100 VUs, 13787 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   3% ] 005/100 VUs  0m14.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m46.0s
+
+running (0h20m15.0s), 005/100 VUs, 13792 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   4% ] 005/100 VUs  0m15.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m45.0s
+
+running (0h20m16.0s), 005/100 VUs, 13794 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   4% ] 005/100 VUs  0m16.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m44.0s
+
+running (0h20m17.0s), 005/100 VUs, 13800 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   4% ] 005/100 VUs  0m17.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m43.0s
+
+running (0h20m18.0s), 005/100 VUs, 13806 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   4% ] 005/100 VUs  0m18.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m42.0s
+
+running (0h20m19.0s), 005/100 VUs, 13815 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   5% ] 005/100 VUs  0m19.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m41.0s
+
+running (0h20m20.0s), 005/100 VUs, 13821 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   5% ] 005/100 VUs  0m20.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m40.0s
+
+running (0h20m21.0s), 005/100 VUs, 13825 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   5% ] 005/100 VUs  0m21.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m39.0s
+
+running (0h20m22.0s), 005/100 VUs, 13832 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   5% ] 005/100 VUs  0m22.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m38.0s
+
+running (0h20m23.0s), 005/100 VUs, 13837 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   6% ] 005/100 VUs  0m23.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m37.0s
+
+running (0h20m24.0s), 005/100 VUs, 13843 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   6% ] 005/100 VUs  0m24.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m36.0s
+
+running (0h20m25.0s), 005/100 VUs, 13848 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   6% ] 005/100 VUs  0m25.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m35.0s
+
+running (0h20m26.0s), 005/100 VUs, 13855 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   6% ] 005/100 VUs  0m26.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m34.0s
+
+running (0h20m27.0s), 005/100 VUs, 13861 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   7% ] 005/100 VUs  0m27.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m33.0s
+
+running (0h20m28.0s), 005/100 VUs, 13867 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   7% ] 005/100 VUs  0m28.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m32.0s
+
+running (0h20m29.0s), 005/100 VUs, 13871 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   7% ] 005/100 VUs  0m29.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m31.0s
+
+running (0h20m30.0s), 005/100 VUs, 13873 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   7% ] 005/100 VUs  0m30.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m30.0s
+
+running (0h20m31.0s), 014/100 VUs, 13877 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   8% ] 014/100 VUs  0m31.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m29.0s
+
+running (0h20m32.0s), 023/100 VUs, 13877 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   8% ] 023/100 VUs  0m32.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m28.0s
+
+running (0h20m33.0s), 033/100 VUs, 13879 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   8% ] 033/100 VUs  0m33.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m27.0s
+
+running (0h20m34.0s), 042/100 VUs, 13886 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   8% ] 042/100 VUs  0m34.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m26.0s
+
+running (0h20m35.0s), 052/100 VUs, 13895 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   9% ] 052/100 VUs  0m35.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m25.0s
+
+running (0h20m36.0s), 061/100 VUs, 13899 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   9% ] 061/100 VUs  0m36.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m24.0s
+
+running (0h20m37.0s), 071/100 VUs, 13903 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   9% ] 071/100 VUs  0m37.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m23.0s
+
+running (0h20m38.0s), 080/100 VUs, 13921 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [   9% ] 080/100 VUs  0m38.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m22.0s
+
+running (0h20m39.0s), 090/100 VUs, 13964 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  10% ] 090/100 VUs  0m39.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m21.0s
+
+running (0h20m40.0s), 099/100 VUs, 14004 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  10% ] 099/100 VUs  0m40.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m20.0s
+
+running (0h20m41.0s), 100/100 VUs, 14036 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  10% ] 100/100 VUs  0m41.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m19.0s
+
+running (0h20m42.0s), 100/100 VUs, 14056 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  10% ] 100/100 VUs  0m42.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m18.0s
+
+running (0h20m43.0s), 100/100 VUs, 14075 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  10% ] 100/100 VUs  0m43.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m17.0s
+
+running (0h20m44.0s), 100/100 VUs, 14101 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  11% ] 100/100 VUs  0m44.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m16.0s
+
+running (0h20m45.0s), 100/100 VUs, 14123 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  11% ] 100/100 VUs  0m45.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m15.0s
+
+running (0h20m46.0s), 100/100 VUs, 14142 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  11% ] 100/100 VUs  0m46.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m14.0s
+
+running (0h20m47.0s), 100/100 VUs, 14161 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  11% ] 100/100 VUs  0m47.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m13.0s
+
+running (0h20m48.0s), 100/100 VUs, 14179 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  12% ] 100/100 VUs  0m48.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m12.0s
+
+running (0h20m49.0s), 100/100 VUs, 14179 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  12% ] 100/100 VUs  0m49.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m11.0s
+
+running (0h20m50.0s), 100/100 VUs, 14179 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  12% ] 100/100 VUs  0m50.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m10.0s
+time="2026-04-20T04:24:12+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:12+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:12+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:12+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:13+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+
+running (0h20m51.0s), 100/100 VUs, 14182 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  12% ] 100/100 VUs  0m51.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m09.0s
+time="2026-04-20T04:24:13+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:13+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:13+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:13+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:13+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:14+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+
+running (0h20m52.0s), 100/100 VUs, 14186 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  13% ] 100/100 VUs  0m52.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m08.0s
+time="2026-04-20T04:24:14+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:14+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:14+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:14+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:14+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:15+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+
+running (0h20m53.0s), 100/100 VUs, 14195 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  13% ] 100/100 VUs  0m53.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m07.0s
+time="2026-04-20T04:24:15+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:15+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:15+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:15+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:15+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:15+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:15+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:15+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:15+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:16+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:16+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:16+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+
+running (0h20m54.0s), 100/100 VUs, 14199 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  13% ] 100/100 VUs  0m54.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m06.0s
+time="2026-04-20T04:24:16+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:16+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:16+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:16+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:16+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:16+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:16+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:16+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:16+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:17+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:17+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:17+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+
+running (0h20m55.0s), 100/100 VUs, 14214 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  13% ] 100/100 VUs  0m55.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m05.0s
+time="2026-04-20T04:24:17+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:17+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:17+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:17+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:17+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:17+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:17+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:17+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:17+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:17+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:18+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:18+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:18+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:18+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:18+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:18+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:18+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+
+running (0h20m56.0s), 100/100 VUs, 14228 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  14% ] 100/100 VUs  0m56.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m04.0s
+time="2026-04-20T04:24:18+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:18+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:18+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:18+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:18+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:18+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:18+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:18+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:18+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:18+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:18+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:18+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:18+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:19+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:19+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:19+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:19+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:19+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:19+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+
+running (0h20m57.0s), 100/100 VUs, 14245 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  14% ] 100/100 VUs  0m57.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m03.0s
+time="2026-04-20T04:24:19+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:19+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:19+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:19+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:19+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:19+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:19+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:19+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:19+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:19+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:19+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:19+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:19+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:20+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:20+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:20+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:20+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:20+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+
+running (0h20m58.0s), 100/100 VUs, 14261 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  14% ] 100/100 VUs  0m58.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m02.0s
+
+running (0h20m59.0s), 100/100 VUs, 14277 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  14% ] 100/100 VUs  0m59.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m01.0s
+
+running (0h21m00.0s), 100/100 VUs, 14279 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  15% ] 100/100 VUs  1m00.0s/6m50.0s
+soak_test  • [   0% ] waiting      09m00.0s
+time="2026-04-20T04:24:22+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:22+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:22+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+
+running (0h21m01.0s), 100/100 VUs, 14281 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  15% ] 100/100 VUs  1m01.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m59.0s
+time="2026-04-20T04:24:23+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:23+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:23+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:24+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+
+running (0h21m02.0s), 100/100 VUs, 14284 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  15% ] 100/100 VUs  1m02.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m58.0s
+time="2026-04-20T04:24:24+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:24+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:24+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:24+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:24+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:24+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:24+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:24+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:25+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+
+running (0h21m03.0s), 100/100 VUs, 14288 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  15% ] 100/100 VUs  1m03.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m57.0s
+time="2026-04-20T04:24:25+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:26+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:26+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:26+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+
+running (0h21m04.0s), 100/100 VUs, 14295 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  16% ] 100/100 VUs  1m04.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m56.0s
+time="2026-04-20T04:24:26+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:26+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:26+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:26+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:26+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:26+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:26+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:26+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:26+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:26+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:26+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:26+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:26+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:27+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:27+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+
+running (0h21m05.0s), 100/100 VUs, 14303 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  16% ] 100/100 VUs  1m05.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m55.0s
+time="2026-04-20T04:24:27+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:27+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:27+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:27+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:27+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:27+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:27+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:27+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:27+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:27+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:28+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:28+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:28+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:28+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+
+running (0h21m06.0s), 100/100 VUs, 14319 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  16% ] 100/100 VUs  1m06.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m54.0s
+time="2026-04-20T04:24:28+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:28+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:28+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:28+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:28+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:28+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:28+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:28+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:28+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:28+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:28+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:29+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:29+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:29+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:29+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:29+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:29+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+
+running (0h21m07.0s), 100/100 VUs, 14332 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  16% ] 100/100 VUs  1m07.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m53.0s
+time="2026-04-20T04:24:29+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:29+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:29+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:29+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:29+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:29+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:29+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:29+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:29+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:29+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:29+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:29+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:29+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:30+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:30+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:30+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+
+running (0h21m08.0s), 100/100 VUs, 14349 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  17% ] 100/100 VUs  1m08.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m52.0s
+time="2026-04-20T04:24:30+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:30+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:30+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:30+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:30+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:30+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:30+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:30+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:30+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:30+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:30+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:30+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:30+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:30+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:30+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:31+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+
+running (0h21m09.0s), 100/100 VUs, 14371 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  17% ] 100/100 VUs  1m09.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m51.0s
+time="2026-04-20T04:24:31+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:31+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+
+running (0h21m10.0s), 100/100 VUs, 14379 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  17% ] 100/100 VUs  1m10.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m50.0s
+time="2026-04-20T04:24:32+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:33+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+
+running (0h21m11.0s), 100/100 VUs, 14381 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  17% ] 100/100 VUs  1m11.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m49.0s
+time="2026-04-20T04:24:33+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:33+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:34+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+
+running (0h21m12.1s), 100/100 VUs, 14383 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  18% ] 100/100 VUs  1m12.1s/6m50.0s
+soak_test  • [   0% ] waiting      08m47.9s
+time="2026-04-20T04:24:34+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:35+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:35+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:35+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+
+running (0h21m13.0s), 100/100 VUs, 14386 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  18% ] 100/100 VUs  1m13.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m47.0s
+time="2026-04-20T04:24:35+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:35+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:35+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:35+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:35+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:36+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:36+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+
+running (0h21m14.0s), 100/100 VUs, 14393 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  18% ] 100/100 VUs  1m14.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m46.0s
+time="2026-04-20T04:24:36+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:36+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:36+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:36+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:37+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:37+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+
+running (0h21m15.0s), 100/100 VUs, 14395 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  18% ] 100/100 VUs  1m15.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m45.0s
+time="2026-04-20T04:24:37+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:37+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:37+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:37+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:37+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:37+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:37+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:37+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:37+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:37+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:37+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:38+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:38+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:38+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:38+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:38+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+
+running (0h21m16.0s), 100/100 VUs, 14408 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  19% ] 100/100 VUs  1m16.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m44.0s
+time="2026-04-20T04:24:38+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:38+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:38+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:38+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:38+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:38+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:38+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:38+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:39+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:39+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:39+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:39+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:39+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+
+running (0h21m17.0s), 100/100 VUs, 14419 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  19% ] 100/100 VUs  1m17.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m43.0s
+time="2026-04-20T04:24:39+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:39+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:39+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:39+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:39+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:39+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:39+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:39+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:39+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:39+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:39+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:39+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:39+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:39+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:39+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:40+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:40+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+
+running (0h21m18.0s), 100/100 VUs, 14438 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  19% ] 100/100 VUs  1m18.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m42.0s
+time="2026-04-20T04:24:40+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:40+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:40+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:40+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:40+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:40+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:40+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:40+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:40+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:40+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:40+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:40+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:40+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:40+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:40+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:40+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:40+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:40+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:41+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:41+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:41+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:41+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+
+running (0h21m19.0s), 100/100 VUs, 14452 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  19% ] 100/100 VUs  1m19.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m41.0s
+time="2026-04-20T04:24:41+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:41+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:41+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:41+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:41+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:41+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:42+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:42+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+
+running (0h21m20.0s), 100/100 VUs, 14470 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  20% ] 100/100 VUs  1m20.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m40.0s
+time="2026-04-20T04:24:42+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:42+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+
+running (0h21m21.0s), 100/100 VUs, 14478 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  20% ] 100/100 VUs  1m21.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m39.0s
+time="2026-04-20T04:24:43+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+
+running (0h21m22.0s), 100/100 VUs, 14481 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  20% ] 100/100 VUs  1m22.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m38.0s
+time="2026-04-20T04:24:44+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:44+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:44+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:44+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+
+running (0h21m23.0s), 100/100 VUs, 14482 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  20% ] 100/100 VUs  1m23.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m37.0s
+time="2026-04-20T04:24:45+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:45+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:45+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:45+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:46+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:46+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:46+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+
+running (0h21m24.0s), 100/100 VUs, 14486 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  20% ] 100/100 VUs  1m24.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m36.0s
+time="2026-04-20T04:24:46+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:46+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+
+running (0h21m25.0s), 100/100 VUs, 14497 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  21% ] 100/100 VUs  1m25.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m35.0s
+time="2026-04-20T04:24:47+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:47+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:47+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:47+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:47+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:47+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:47+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:47+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:47+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:48+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:48+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:48+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:48+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+
+running (0h21m26.0s), 100/100 VUs, 14509 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  21% ] 100/100 VUs  1m26.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m34.0s
+time="2026-04-20T04:24:48+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:48+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:48+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:48+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:48+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:48+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:48+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:49+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:49+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:49+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:49+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+
+running (0h21m27.0s), 100/100 VUs, 14523 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  21% ] 100/100 VUs  1m27.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m33.0s
+time="2026-04-20T04:24:49+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:49+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:49+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:49+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:49+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:49+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:49+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:49+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:49+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:49+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:49+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:50+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:50+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:50+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:50+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:50+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:50+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:50+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+
+running (0h21m28.0s), 100/100 VUs, 14534 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  21% ] 100/100 VUs  1m28.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m32.0s
+time="2026-04-20T04:24:50+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:50+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:50+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:50+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:50+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:50+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:50+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:50+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:50+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:50+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:51+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:51+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:51+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:51+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:51+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+
+running (0h21m29.0s), 100/100 VUs, 14556 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  22% ] 100/100 VUs  1m29.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m31.0s
+time="2026-04-20T04:24:51+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:51+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:51+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:51+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:51+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:51+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:51+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:51+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:51+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:51+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:51+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:51+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:52+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:52+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:52+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:52+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:52+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:52+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+
+running (0h21m30.0s), 100/100 VUs, 14575 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  22% ] 100/100 VUs  1m30.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m30.0s
+time="2026-04-20T04:24:52+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+time="2026-04-20T04:24:52+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:52+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:52+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:52+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:52+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:52+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:52+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+
+running (0h21m31.0s), 100/100 VUs, 14602 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  22% ] 100/100 VUs  1m31.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m29.0s
+time="2026-04-20T04:24:53+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/up\": request timeout"
+time="2026-04-20T04:24:53+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/health\": request timeout"
+time="2026-04-20T04:24:53+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+
+running (0h21m32.0s), 100/100 VUs, 14631 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  22% ] 100/100 VUs  1m32.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m28.0s
+time="2026-04-20T04:24:54+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+
+running (0h21m33.0s), 100/100 VUs, 14646 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  23% ] 100/100 VUs  1m33.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m27.0s
+time="2026-04-20T04:24:55+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/\": request timeout"
+time="2026-04-20T04:24:56+07:00" level=warning msg="Request Failed" error="Get \"http://api.simxstudio.test/api/users\": request timeout"
+
+running (0h21m34.0s), 100/100 VUs, 14687 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  23% ] 100/100 VUs  1m34.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m26.0s
+
+running (0h21m35.0s), 100/100 VUs, 14783 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  23% ] 100/100 VUs  1m35.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m25.0s
+
+running (0h21m36.0s), 100/100 VUs, 14838 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  23% ] 100/100 VUs  1m36.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m24.0s
+
+running (0h21m37.0s), 100/100 VUs, 14923 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  24% ] 100/100 VUs  1m37.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m23.0s
+
+running (0h21m38.0s), 100/100 VUs, 15043 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  24% ] 100/100 VUs  1m38.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m22.0s
+
+running (0h21m39.0s), 100/100 VUs, 15154 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  24% ] 100/100 VUs  1m39.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m21.0s
+
+running (0h21m40.0s), 100/100 VUs, 15237 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  24% ] 100/100 VUs  1m40.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m20.0s
+
+running (0h21m41.0s), 097/100 VUs, 15332 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  25% ] 097/100 VUs  1m41.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m19.0s
+
+running (0h21m42.0s), 085/100 VUs, 15434 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  25% ] 085/100 VUs  1m42.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m18.0s
+
+running (0h21m43.0s), 080/100 VUs, 15486 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  25% ] 080/100 VUs  1m43.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m17.0s
+
+running (0h21m44.0s), 074/100 VUs, 15515 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  25% ] 074/100 VUs  1m44.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m16.0s
+
+running (0h21m45.0s), 069/100 VUs, 15531 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  26% ] 069/100 VUs  1m45.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m15.0s
+
+running (0h21m46.0s), 065/100 VUs, 15541 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  26% ] 065/100 VUs  1m46.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m14.0s
+
+running (0h21m47.0s), 061/100 VUs, 15552 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  26% ] 061/100 VUs  1m47.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m13.0s
+
+running (0h21m48.0s), 056/100 VUs, 15558 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  26% ] 056/100 VUs  1m48.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m12.0s
+
+running (0h21m49.0s), 052/100 VUs, 15568 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  27% ] 052/100 VUs  1m49.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m11.0s
+
+running (0h21m50.0s), 043/100 VUs, 15578 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  27% ] 043/100 VUs  1m50.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m10.0s
+
+running (0h21m51.0s), 027/100 VUs, 15596 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  27% ] 027/100 VUs  1m51.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m09.0s
+
+running (0h21m52.0s), 020/100 VUs, 15605 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  27% ] 020/100 VUs  1m52.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m08.0s
+
+running (0h21m53.0s), 012/100 VUs, 15613 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  28% ] 012/100 VUs  1m53.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m07.0s
+
+running (0h21m54.0s), 009/100 VUs, 15619 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  28% ] 009/100 VUs  1m54.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m06.0s
+
+running (0h21m55.0s), 005/100 VUs, 15627 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  28% ] 005/100 VUs  1m55.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m05.0s
+
+running (0h21m56.0s), 005/100 VUs, 15631 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  28% ] 005/100 VUs  1m56.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m04.0s
+
+running (0h21m57.0s), 005/100 VUs, 15635 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  29% ] 005/100 VUs  1m57.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m03.0s
+
+running (0h21m58.0s), 005/100 VUs, 15639 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  29% ] 005/100 VUs  1m58.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m02.0s
+
+running (0h21m59.0s), 005/100 VUs, 15643 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  29% ] 005/100 VUs  1m59.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m01.0s
+
+running (0h22m00.0s), 005/100 VUs, 15646 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  29% ] 005/100 VUs  2m00.0s/6m50.0s
+soak_test  • [   0% ] waiting      08m00.0s
+
+running (0h22m01.0s), 005/100 VUs, 15648 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  30% ] 005/100 VUs  2m01.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m59.0s
+
+running (0h22m02.0s), 005/100 VUs, 15651 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  30% ] 005/100 VUs  2m02.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m58.0s
+
+running (0h22m03.0s), 005/100 VUs, 15653 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  30% ] 005/100 VUs  2m03.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m57.0s
+
+running (0h22m04.0s), 005/100 VUs, 15655 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  30% ] 005/100 VUs  2m04.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m56.0s
+
+running (0h22m05.0s), 005/100 VUs, 15655 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  30% ] 005/100 VUs  2m05.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m55.0s
+
+running (0h22m06.0s), 005/100 VUs, 15660 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  31% ] 005/100 VUs  2m06.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m54.0s
+
+running (0h22m07.0s), 005/100 VUs, 15660 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  31% ] 005/100 VUs  2m07.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m53.0s
+
+running (0h22m08.0s), 005/100 VUs, 15661 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  31% ] 005/100 VUs  2m08.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m52.0s
+
+running (0h22m09.0s), 005/100 VUs, 15664 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  31% ] 005/100 VUs  2m09.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m51.0s
+
+running (0h22m10.0s), 005/100 VUs, 15667 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  32% ] 005/100 VUs  2m10.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m50.0s
+
+running (0h22m11.0s), 005/100 VUs, 15669 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  32% ] 005/100 VUs  2m11.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m49.0s
+
+running (0h22m12.0s), 005/100 VUs, 15675 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  32% ] 005/100 VUs  2m12.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m48.0s
+
+running (0h22m13.0s), 005/100 VUs, 15677 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  32% ] 005/100 VUs  2m13.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m47.0s
+
+running (0h22m14.0s), 005/100 VUs, 15684 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  33% ] 005/100 VUs  2m14.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m46.0s
+
+running (0h22m15.0s), 005/100 VUs, 15688 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  33% ] 005/100 VUs  2m15.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m45.0s
+
+running (0h22m16.0s), 005/100 VUs, 15692 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  33% ] 005/100 VUs  2m16.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m44.0s
+
+running (0h22m17.0s), 005/100 VUs, 15697 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  33% ] 005/100 VUs  2m17.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m43.0s
+
+running (0h22m18.0s), 005/100 VUs, 15703 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  34% ] 005/100 VUs  2m18.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m42.0s
+
+running (0h22m19.0s), 005/100 VUs, 15705 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  34% ] 005/100 VUs  2m19.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m41.0s
+
+running (0h22m20.0s), 005/100 VUs, 15712 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  34% ] 005/100 VUs  2m20.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m40.0s
+
+running (0h22m21.0s), 005/100 VUs, 15718 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  34% ] 005/100 VUs  2m21.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m39.0s
+
+running (0h22m22.0s), 005/100 VUs, 15724 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  35% ] 005/100 VUs  2m22.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m38.0s
+
+running (0h22m23.0s), 005/100 VUs, 15725 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  35% ] 005/100 VUs  2m23.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m37.0s
+
+running (0h22m24.0s), 005/100 VUs, 15731 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  35% ] 005/100 VUs  2m24.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m36.0s
+
+running (0h22m25.0s), 005/100 VUs, 15737 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  35% ] 005/100 VUs  2m25.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m35.0s
+
+running (0h22m26.0s), 005/100 VUs, 15743 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  36% ] 005/100 VUs  2m26.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m34.0s
+
+running (0h22m27.0s), 005/100 VUs, 15748 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  36% ] 005/100 VUs  2m27.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m33.0s
+
+running (0h22m28.0s), 005/100 VUs, 15753 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  36% ] 005/100 VUs  2m28.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m32.0s
+
+running (0h22m29.0s), 005/100 VUs, 15758 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  36% ] 005/100 VUs  2m29.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m31.0s
+
+running (0h22m30.0s), 005/100 VUs, 15764 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  37% ] 005/100 VUs  2m30.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m30.0s
+
+running (0h22m31.0s), 005/100 VUs, 15767 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  37% ] 005/100 VUs  2m31.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m29.0s
+
+running (0h22m32.0s), 005/100 VUs, 15775 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  37% ] 005/100 VUs  2m32.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m28.0s
+
+running (0h22m33.0s), 005/100 VUs, 15779 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  37% ] 005/100 VUs  2m33.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m27.0s
+
+running (0h22m34.0s), 005/100 VUs, 15782 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  38% ] 005/100 VUs  2m34.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m26.0s
+
+running (0h22m35.0s), 005/100 VUs, 15782 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  38% ] 005/100 VUs  2m35.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m25.0s
+
+running (0h22m36.0s), 005/100 VUs, 15785 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  38% ] 005/100 VUs  2m36.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m24.0s
+
+running (0h22m37.0s), 005/100 VUs, 15786 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  38% ] 005/100 VUs  2m37.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m23.0s
+
+running (0h22m38.0s), 005/100 VUs, 15790 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  39% ] 005/100 VUs  2m38.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m22.0s
+
+running (0h22m39.0s), 005/100 VUs, 15794 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  39% ] 005/100 VUs  2m39.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m21.0s
+
+running (0h22m40.0s), 005/100 VUs, 15797 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  39% ] 005/100 VUs  2m40.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m20.0s
+
+running (0h22m41.0s), 005/100 VUs, 15799 complete and 0 interrupted iterations
+smoke_test ✓ [ 100% ] 1 VUs        1m0s
+ramp_up    ✓ [ 100% ] 000/100 VUs  16m0s
+spike_test   [  39% ] 005/100 VUs  2m41.0s/6m50.0s
+soak_test  • [   0% ] waiting      07m19.0s
